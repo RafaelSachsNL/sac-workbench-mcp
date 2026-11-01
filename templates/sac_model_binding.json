@@ -1,0 +1,497 @@
+{
+ "cubeId": "C11ltg36d2cdn97e2nbostih8w7",
+ "entities": [
+  {
+   "id": "planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]",
+   "type": "dataset",
+   "data": {
+    "id": "planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]",
+    "isPrivate": false,
+    "isRemote": false,
+    "packageName": "t.ABC123.C11ltg36d2cdn97e2nbostih8w7",
+    "datasetType": "Planning",
+    "modelId": "MCP_PLAN_API",
+    "systemType": "ORCA_MAIN"
+   },
+   "bSuppressPromptDialog": false
+  },
+  {
+   "datasetId": "planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]",
+   "alias": "\"MCP_PLAN_API\"",
+   "type": "datasetAlias",
+   "id": "be0d1fe4-031f-437f-b62e-07e97fd41440"
+  }
+ ],
+ "udm": [
+  {
+   "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"}]",
+   "dimensions": [
+    {
+     "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"CustomDimension1\"}]",
+     "dimensionId": "CustomDimension1",
+     "entityType": "DIMENSION",
+     "type": "MeasureStructure",
+     "subType": "measure",
+     "valueType": "string",
+     "semanticType": "dimension",
+     "sqlType": "VARCHAR",
+     "isGroupingDimension": false,
+     "caption": "Measures",
+     "externalName": null,
+     "attributes": {
+      "[Measures].[Measures]": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"CustomDimension1\"},{\"attributeId\":\"[Measures].[Measures]\"}]",
+       "entityType": "ATTRIBUTE",
+       "isKey": true,
+       "type": "string",
+       "text": "Measures",
+       "isFlatKey": true,
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "SingleValueIncludeOnlyWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "SingleValueIncludeOnlyWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      },
+      "[Measures].[Description]": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"CustomDimension1\"},{\"attributeId\":\"[Measures].[Description]\"}]",
+       "entityType": "ATTRIBUTE",
+       "type": "string",
+       "isTechnical": false,
+       "isHierarchyPathField": false,
+       "isCubeBlendingPropertiesField": false,
+       "semanticType": "description",
+       "filterCapability": {},
+       "isDisplayAttribute": false
+      }
+     },
+     "isBWCompoundDimension": false,
+     "isHierarchyMandatory": false,
+     "supportsHierarchy": false,
+     "hasFlexibleTimeGroupingDimension": false
+    },
+    {
+     "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Region\"}]",
+     "dimensionId": "Region",
+     "entityType": "DIMENSION",
+     "type": "Dimension",
+     "valueType": "string",
+     "semanticType": "dimension",
+     "sqlType": "NVARCHAR",
+     "isGroupingDimension": true,
+     "caption": "Vertriebsregion",
+     "externalName": null,
+     "attributes": {
+      "Region.ID": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Region\"},{\"attributeId\":\"Region.ID\"}]",
+       "entityType": "ATTRIBUTE",
+       "isKey": true,
+       "type": "string",
+       "text": "Member ID",
+       "isFlatKey": true,
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      },
+      "Region.Description": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Region\"},{\"attributeId\":\"Region.Description\"}]",
+       "entityType": "ATTRIBUTE",
+       "type": "string",
+       "isTechnical": false,
+       "isHierarchyPathField": false,
+       "isCubeBlendingPropertiesField": false,
+       "semanticType": "description",
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      },
+      "[Region].path": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Region\"},{\"attributeId\":\"[Region].path\"}]",
+       "entityType": "ATTRIBUTE",
+       "type": "string",
+       "isTechnical": true,
+       "isHierarchyPathField": true,
+       "isCubeBlendingPropertiesField": false,
+       "semanticType": "dimension.path",
+       "text": "Vertriebsregion",
+       "filterCapability": {},
+       "isDisplayAttribute": false
+      }
+     },
+     "isBWCompoundDimension": false,
+     "isHierarchyMandatory": false,
+     "supportsHierarchy": false,
+     "hasFlexibleTimeGroupingDimension": false,
+     "numberOfHierarchies": 0
+    },
+    {
+     "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"}]",
+     "dimensionId": "Version",
+     "entityType": "DIMENSION",
+     "type": "GeneralVersion",
+     "subType": "nonaggregatable",
+     "valueType": "string",
+     "semanticType": "dataVersion",
+     "sqlType": "NVARCHAR",
+     "isGroupingDimension": true,
+     "caption": "Version",
+     "externalName": null,
+     "attributes": {
+      "Version.ID": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.ID\"}]",
+       "entityType": "ATTRIBUTE",
+       "isKey": true,
+       "type": "string",
+       "text": "ID",
+       "isFlatKey": true,
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      },
+      "Version.Description": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.Description\"}]",
+       "entityType": "ATTRIBUTE",
+       "type": "string",
+       "isTechnical": false,
+       "isHierarchyPathField": false,
+       "isCubeBlendingPropertiesField": false,
+       "semanticType": "description",
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      },
+      "Version.VERSION": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.VERSION\"}]",
+       "entityType": "ATTRIBUTE",
+       "type": "string",
+       "isTechnical": false,
+       "isHierarchyPathField": false,
+       "isCubeBlendingPropertiesField": false,
+       "semanticType": "dataVersion.version",
+       "text": "Version",
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      },
+      "Version.USER": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.USER\"}]",
+       "entityType": "ATTRIBUTE",
+       "type": "string",
+       "isTechnical": false,
+       "isHierarchyPathField": false,
+       "isCubeBlendingPropertiesField": false,
+       "semanticType": "dataVersion.user",
+       "text": "User",
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      },
+      "Version.TYPE": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.TYPE\"}]",
+       "entityType": "ATTRIBUTE",
+       "type": "string",
+       "isTechnical": false,
+       "isHierarchyPathField": false,
+       "isCubeBlendingPropertiesField": false,
+       "semanticType": "dataVersion.type",
+       "text": "Type",
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      },
+      "Version.SOURCE_VERSION": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.SOURCE_VERSION\"}]",
+       "entityType": "ATTRIBUTE",
+       "type": "string",
+       "isTechnical": false,
+       "isHierarchyPathField": false,
+       "isCubeBlendingPropertiesField": false,
+       "semanticType": "dataVersion.source_version",
+       "text": "Source Version",
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      },
+      "Version.CATEGORY": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.CATEGORY\"}]",
+       "entityType": "ATTRIBUTE",
+       "type": "string",
+       "isTechnical": false,
+       "isHierarchyPathField": false,
+       "isCubeBlendingPropertiesField": false,
+       "semanticType": "SAC::VersionCategory",
+       "text": "Category",
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      },
+      "[Version].path": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"[Version].path\"}]",
+       "entityType": "ATTRIBUTE",
+       "type": "string",
+       "isTechnical": true,
+       "isHierarchyPathField": true,
+       "isCubeBlendingPropertiesField": false,
+       "semanticType": "dataVersion.path",
+       "text": "Version",
+       "filterCapability": {},
+       "isDisplayAttribute": false
+      }
+     },
+     "isBWCompoundDimension": false,
+     "isHierarchyMandatory": false,
+     "supportsHierarchy": false,
+     "hasFlexibleTimeGroupingDimension": false,
+     "numberOfHierarchies": 0,
+     "defaultMemberValue": "public.Actual"
+    },
+    {
+     "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version.CATEGORY\"}]",
+     "dimensionId": "Version.CATEGORY",
+     "entityType": "DIMENSION",
+     "type": "Dimension",
+     "valueType": "string",
+     "semanticType": "dimension",
+     "sqlType": "NVARCHAR",
+     "isGroupingDimension": false,
+     "caption": "Category",
+     "externalName": null,
+     "attributes": {
+      "Version.CATEGORY": {
+       "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version.CATEGORY\"},{\"attributeId\":\"Version.CATEGORY\"}]",
+       "entityType": "ATTRIBUTE",
+       "isKey": true,
+       "type": "string",
+       "text": "Category",
+       "semanticType": "SAC::VersionCategory",
+       "isFlatKey": true,
+       "filterCapability": {
+        "query": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        },
+        "valueHelp": {
+         "comparisonGroupName": "ExtendedRangeWithNullAllowed"
+        }
+       },
+       "isDisplayAttribute": false
+      }
+     },
+     "isBWCompoundDimension": false,
+     "isHierarchyMandatory": false,
+     "supportsHierarchy": false,
+     "hasFlexibleTimeGroupingDimension": false,
+     "semanticTypeFromMetadata": "SAC::VersionCategory",
+     "numberOfHierarchies": 0,
+     "groupingDimension": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"}]",
+     "isNavigationalAttributeDimension": false,
+     "defaultMemberValue": "public.Actual"
+    }
+   ],
+   "measures": [
+    {
+     "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"CustomDimension1\"},{\"measureId\":\"Umsatz\"}]",
+     "entityType": "MEASURE",
+     "valueType": "number",
+     "measureId": "Umsatz",
+     "displayKey": "Umsatz",
+     "description": "Umsatz in EUR",
+     "isAccountMemeber": false,
+     "isSecondary": false,
+     "isNonNumeric": false,
+     "isPercent": false,
+     "isLeaf": true,
+     "decimalPlaces": null,
+     "numericShift": null,
+     "defaultAggregationType": "SUM",
+     "requiredDimensions": [],
+     "isSelectionCandidate": true,
+     "numericPrecision": 38,
+     "memberType": "BasicMeasure"
+    },
+    {
+     "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"CustomDimension1\"},{\"measureId\":\"Menge\"}]",
+     "entityType": "MEASURE",
+     "valueType": "number",
+     "measureId": "Menge",
+     "displayKey": "Menge",
+     "description": "Absatzmenge",
+     "isAccountMemeber": false,
+     "isSecondary": false,
+     "isNonNumeric": false,
+     "isPercent": false,
+     "isLeaf": true,
+     "decimalPlaces": null,
+     "numericShift": null,
+     "defaultAggregationType": "SUM",
+     "requiredDimensions": [],
+     "isSelectionCandidate": true,
+     "numericPrecision": 38,
+     "memberType": "BasicMeasure"
+    }
+   ],
+   "secondaryMeasures": [],
+   "dataModelInfo": {
+    "systemName": "EHS",
+    "name": "C11ltg36d2cdn97e2nbostih8w7",
+    "displayName": "MCP_PLAN_API",
+    "description": "Planungsmodell via SAC MCP",
+    "shortDescription": "MCP_PLAN_API",
+    "datasetId": "planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]",
+    "isInAModel": false,
+    "isPlanning": true,
+    "isExtendedHanaLiveWithCalcViewModelling": false,
+    "isPlanningEnabled": true,
+    "isRemote": false,
+    "isNewSqlLive": false,
+    "isEmbedded": false,
+    "isPrivate": false,
+    "isIntegrated": false,
+    "isCurrencySupported": false,
+    "currencies": [],
+    "defaultCurrency": "",
+    "hasAccountDimension": false,
+    "hasUserDefinedMeasures": true,
+    "hasVirtualVersionDimension": false,
+    "extendedDimensions": [],
+    "lastUpdated": "2026-10-11T22:51:31.891Z",
+    "ancestorPath": [
+     {
+      "resourceId": "PRIVATE_SACUSER",
+      "name": "PRIVATE_SACUSER",
+      "auth": {
+       "read": true
+      }
+     },
+     {
+      "resourceId": "0123456789ABCDEF0123456789ABCDEF",
+      "name": "SANDBOX",
+      "auth": {
+       "read": true
+      }
+     }
+    ],
+    "dataAccessLanguage": "en",
+    "dataExportRestricted": false,
+    "validationHash": "3814829655",
+    "isCurrencyTranslationEnabled": false,
+    "maxCurrencyTranslations": 0,
+    "isExtendedHanaLiveConnection": false,
+    "rateSourceType": "",
+    "supportsLWMD": true,
+    "dataSource": {
+     "objectName": "/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs",
+     "schemaName": "TENANT_ABC123",
+     "type": "Planning"
+    },
+    "planningFeatures": {
+     "versionCreation": true
+    },
+    "leadingStructure": "CustomDimension1",
+    "hints": [
+     {
+      "Key": "mds_plan_use_ce_new",
+      "Value": "true"
+     },
+     {
+      "Key": "mds_correct_time_description_handling",
+      "Value": "true"
+     }
+    ],
+    "hasDatasetSource": false,
+    "validationRuleDimensions": [],
+    "isValidationRuleEnableExplicitUnassigned": false,
+    "hasPlanningTimeDimension": true,
+    "systemType": "ORCA_MAIN",
+    "isBW": false,
+    "isBPCE": false,
+    "hasSecondaryStructure": true,
+    "modelId": "t.ABC123.C11ltg36d2cdn97e2nbostih8w7:C11ltg36d2cdn97e2nbostih8w7",
+    "lastRefreshedAt": null,
+    "lastChangedBy": "",
+    "sourceDescription": "Planungsmodell via SAC MCP",
+    "datasetHasDynamicFilters": false,
+    "versionDimensionType": "VersionDimension",
+    "isS4Hana": false
+   },
+   "members": {
+    "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"}]": [
+     {
+      "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"},{\"memberId\":\"public.Actual\"}]",
+      "entityType": "MEMBER",
+      "name": "public.Actual",
+      "displayKey": "public.Actual",
+      "description": "Actual",
+      "isLeaf": true,
+      "category": "Actuals"
+     },
+     {
+      "id": "[{\"datasetId\":\"planning:[TENANT_ABC123][][/t.ABC123.C11ltg36d2cdn97e2nbostih8w7/C11ltg36d2cdn97e2nbostih8w7_qs]\"},{\"dimensionId\":\"Version\"},{\"memberId\":\"public.Plan\"}]",
+      "entityType": "MEMBER",
+      "name": "public.Plan",
+      "displayKey": "public.Plan",
+      "description": "Plan",
+      "isLeaf": true,
+      "category": "Planning"
+     }
+    ]
+   }
+  }
+ ]
+}

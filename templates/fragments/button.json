@@ -1,0 +1,124 @@
+{
+ "name": "button",
+ "description": "Button (Text, onClick-Script)",
+ "kind": "button",
+ "tokens": {
+  "widgetId": "37677841-8141-4486-8934-822040175172",
+  "sectionId": "21930746-5116-4652-9760-933243820971",
+  "entityIds": [
+   "f232d8df-48e4-4227-a93a-7c8d17f47b09"
+  ],
+  "outlineName": "Button_1",
+  "model": {
+   "cubeId": "\u0000none",
+   "model": "\u0000none",
+   "space": "\u0000none",
+   "connection": "\u0000none"
+  },
+  "dimensions": [],
+  "measures": []
+ },
+ "parts": {
+  "registry": {
+   "id": "37677841-8141-4486-8934-822040175172",
+   "class": "sap.fpa.ui.appBuilding.entity.button.ButtonWidget",
+   "definition": {
+    "entityId": "f232d8df-48e4-4227-a93a-7c8d17f47b09",
+    "data": {}
+   },
+   "themeClasses": [],
+   "dimension": {
+    "width": 128,
+    "height": 32
+   },
+   "serviceValidationHashes": {}
+  },
+  "section": {
+   "sectionId": "21930746-5116-4652-9760-933243820971",
+   "definition": {
+    "x": 8,
+    "y": 6,
+    "width": 32,
+    "height": 32,
+    "title": "Section"
+   },
+   "widgets": [
+    {
+     "widgetId": "37677841-8141-4486-8934-822040175172",
+     "definition": {
+      "removeable": true,
+      "x": 0,
+      "y": 0,
+      "height": 32,
+      "width": 32,
+      "notFollowTheme": true,
+      "cssClassName": "button--lite",
+      "dynamicLayout": {
+       "left": 0,
+       "top": 0,
+       "width": 180,
+       "height": 32,
+       "leftUnit": "pixel",
+       "topUnit": "pixel",
+       "widthUnit": "pixel",
+       "heightUnit": "pixel",
+       "rightUnit": "auto",
+       "bottomUnit": "auto",
+       "minWidth": 16,
+       "minHeight": 16,
+       "minOccupiedWidth": 48,
+       "minOccupiedHeight": 32,
+       "fixedHeight": false,
+       "fixedWidth": false
+      }
+     }
+    }
+   ]
+  },
+  "entities": [
+   {
+    "type": "button",
+    "id": "f232d8df-48e4-4227-a93a-7c8d17f47b09",
+    "vendorId": "sap.epm.appBuilding.entity.button.ButtonWidgetVendor",
+    "data": {
+     "text": "Button",
+     "tooltipText": "",
+     "enabled": true,
+     "buttonType": "Standard",
+     "hoverBorderStyle": {
+      "borderColor": "#bfbfbf"
+     },
+     "hoverBackgroundStyle": {
+      "backgroundColor": "#ebebeb"
+     },
+     "downBorderStyle": {
+      "borderColor": "#bfbfbf"
+     },
+     "downBackgroundStyle": {
+      "backgroundColor": "#427cac"
+     },
+     "showIcon": false,
+     "buttonIcon": "",
+     "iconPosition": "Left",
+     "backgroundStyle": {
+      "width": "100%",
+      "height": "100%",
+      "backgroundColor": "#f7f7f7"
+     },
+     "borderStyle": {
+      "borderColor": "#bfbfbf"
+     },
+     "contentFontStyle": {
+      "fontFamily": "'72-Web'",
+      "fontSize": "14px",
+      "color": ""
+     }
+    }
+   }
+  ],
+  "queries": [],
+  "preExecute": [],
+  "udm": [],
+  "layouts": []
+ }
+}

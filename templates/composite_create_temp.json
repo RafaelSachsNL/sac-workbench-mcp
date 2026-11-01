@@ -1,0 +1,117 @@
+{
+ "_note": "createTempContent of a new composite (Composites \u2192 Composite), recorded 2026-10-16",
+ "action": "createTempContent",
+ "data": {
+  "parentResId": "TEMP_SACUSER",
+  "resourceType": "STORY",
+  "name": "New Composite({0})",
+  "description": "",
+  "cdata": {
+   "title": "New Composite({0})",
+   "isTemporary": true,
+   "content": {
+    "version": "4.24",
+    "entities": [
+     {
+      "id": "6e8b7961-9994-4bfd-bce6-e1ace133f6f5",
+      "name": "New Infographic",
+      "type": "story",
+      "data": {
+       "id": "6f4a624a-57dd-4707-a67b-38a93ce19b16",
+       "title": "New Infographic",
+       "pages": [
+        {
+         "title": "Page",
+         "hidden": false,
+         "content": {
+          "version": "2.0",
+          "layouts": [
+           {
+            "id": "boxlayout",
+            "definition": {
+             "type": "sap.lumira.story.layout.unified",
+             "page": {
+              "sections": [],
+              "definition": {
+               "backgroundColor": "#FFFFFF",
+               "type": "CANVAS",
+               "height": 523,
+               "width": 1022
+              }
+             }
+            }
+           }
+          ],
+          "widgets": [],
+          "filters": []
+         },
+         "id": "a31b3cd2-f023-4b22-ac46-3e90b81c8e7a",
+         "suggestedVizSettings": {
+          "selectedMeasures": [],
+          "selectedDimensions": []
+         },
+         "definition": {
+          "type": "CANVAS",
+          "snapToGrid": false,
+          "snapToObject": true,
+          "layoutId": "3aa17cc5-e306-4045-b751-7b997d927294",
+          "fitPageToDevice": true,
+          "enableDevicePreview": true,
+          "devicePreviewSize": {
+           "width": "auto",
+           "height": "auto"
+          }
+         }
+        }
+       ],
+       "storyFilters": [],
+       "hyperlinkFilters": [],
+       "queryDefinitions": [],
+       "themingReference": null,
+       "colorSync": {
+        "version": "1.0.0"
+       },
+       "promptTokenDetails": [],
+       "uqmIntegrationEnabled": true,
+       "storyWideSettings": {
+        "useHorizonDefaultStyle": true,
+        "analyticgrid.table": {
+         "general": {
+          "isUqmNative": true,
+          "migrationVersion": "1.0"
+         }
+        }
+       }
+      }
+     },
+     {
+      "app": {
+       "createNewEmptyApp": true,
+       "names": {
+        "[{\"appPage\":\"a31b3cd2-f023-4b22-ac46-3e90b81c8e7a\"}]": "Page_1"
+       },
+       "loadInvisibleWidgets": "inBackground"
+      },
+      "id": "6e8b7961-9994-4bfd-bce6-e1ace133f6f5:application",
+      "appPages": [
+       {
+        "instanceId": "[{\"appPage\":\"a31b3cd2-f023-4b22-ac46-3e90b81c8e7a\"}]",
+        "payload": {
+         "pageId": "a31b3cd2-f023-4b22-ac46-3e90b81c8e7a",
+         "behaviorMode": "CANVAS"
+        }
+       }
+      ]
+     }
+    ],
+    "optimizedDesignEnabled": true,
+    "folder": "PRIVATE"
+   }
+  },
+  "createOpt": {
+   "copiedSourceId": "",
+   "bCopyPrivateModels": true
+  },
+  "resourceSubtype": "COMPOSITE"
+ }
+}

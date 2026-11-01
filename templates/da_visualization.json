@@ -1,0 +1,239 @@
+{
+ "chartElement": {
+  "ChartDefinition": {
+   "CType": "VisualizationChartDefinition",
+   "ChartSettings": {
+    "CategoryDimensions": {
+     "ColorScheme": "ColorSchemeCategoryStyling"
+    },
+    "ChartStyle": {
+     "CType": "ChartStyle",
+     "CategoryAxis": {
+      "DataLabel": {},
+      "HeaderLabel": {},
+      "Line": {},
+      "Tick": {}
+     },
+     "Default": {
+      "DataLabel": {},
+      "HeaderLabel": {},
+      "Line": {},
+      "Tick": {}
+     },
+     "GroupTotalStyle": {},
+     "Legend": {
+      "Label": {}
+     },
+     "PlotArea": {
+      "DataLabel": {},
+      "DimensionLabel": {},
+      "StackColumnLabel": {}
+     },
+     "PrimaryVarianceTitleStyle": {},
+     "SecondaryVarianceTitleStyle": {},
+     "TitleStyle": {},
+     "VarianceStyle": {
+      "CategoryAxis": {
+       "DataLabel": {},
+       "HeaderLabel": {},
+       "Line": {},
+       "Tick": {}
+      },
+      "DataPoint": {
+       "DeSelectedStyle": {},
+       "HoveredStyle": {},
+       "SelectedStyle": {},
+       "Style": {}
+      },
+      "Label": {},
+      "ValueAxis": {
+       "DataLabel": {},
+       "HeaderLabel": {},
+       "Line": {},
+       "Tick": {}
+      }
+     }
+    },
+    "ChartType": "Bar",
+    "DefaultStylingDimensions": {
+     "ColorScheme": "ColorSchemeDefaultStyling"
+    },
+    "DistributionDimensions": {
+     "ColorScheme": "ColorSchemeDistributionStyling"
+    },
+    "GroupingDimensions": {
+     "ColorScheme": "ColorSchemeGroupingStyling"
+    },
+    "HasTitleExpanded": false,
+    "KeyFigureSelections": [
+     {
+      "Members": [
+       {
+        "DimensionName": "Region",
+        "Id": null,
+        "Name": null,
+        "NestedKeyFigures": [],
+        "Text": null
+       }
+      ],
+      "VisualizationValueType": "Category"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "CategoryB"
+     },
+     {
+      "Members": [
+       {
+        "DimensionName": "CustomDimension1",
+        "Id": "Umsatz",
+        "Name": "Umsatz",
+        "NestedKeyFigures": [],
+        "Text": "Umsatz in EUR"
+       }
+      ],
+      "VisualizationValueType": "Value"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ValueB"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ValueC"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "LabelVariance"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ValueVariance"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ValueVarianceB"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ValueVarianceC"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ValueX"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ValueY"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ValueZ"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "Weight"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "Color"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "Size"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "Target"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "Reference"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ErrorMin"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ErrorMax"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "IdealMin"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "IdealMax"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "GoodMin"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "GoodMax"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "BadMin"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "BadMax"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "CriticalMin"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "CriticalMax"
+     },
+     {
+      "Members": [],
+      "VisualizationValueType": "ToolTip"
+     }
+    ],
+    "MaxColor": {
+     "Name": "MaxColor",
+     "Text": "MaxColor"
+    },
+    "MinColor": {
+     "Name": "MinColor",
+     "Text": "MinColor"
+    }
+   },
+   "KeyFigureDimension": "CustomDimension1",
+   "MemberRestrictions": [],
+   "Path": [],
+   "Subtitle": {
+    "Priority": 0
+   },
+   "Title": {
+    "Priority": 0
+   }
+  },
+  "Name": "chart_created_by_axes_view_Bar",
+  "ProtocolBindingType": "VizInstance",
+  "SemanticBindingType": "Chart"
+ },
+ "tableElement": {
+  "Name": "TableDefinition",
+  "ProtocolBindingType": "SacTableGrid",
+  "SemanticBindingType": "Table",
+  "TableDefinition": {
+   "CType": "VisualizationTableDefinition",
+   "FreezeHeaderRows": true,
+   "FreezeUpToColumn": -1,
+   "FreezeUpToRow": -1,
+   "Name": "TableDefinition",
+   "Subtitle": {
+    "Priority": 0
+   },
+   "Title": {
+    "Priority": 0
+   }
+  }
+ }
+}

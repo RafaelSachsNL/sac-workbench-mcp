@@ -1,0 +1,112 @@
+{
+ "name": "panel_flow_item",
+ "description": "Panel als Element eines Flow Panels (Breite in %, z. B. 50 %)",
+ "kind": "panel",
+ "tokens": {
+  "widgetId": "69c1ea31-f792-4f5b-9823-6efcc29a88b8",
+  "sectionId": "22e5a6f9-14a1-41b5-b992-d97ab8a5ae36",
+  "entityIds": [
+   "e738089b-993b-470e-a995-279a2ad14922"
+  ],
+  "outlineName": "Panel_13",
+  "model": {
+   "cubeId": "\u0000none",
+   "model": "\u0000none",
+   "space": "\u0000none",
+   "connection": "\u0000none"
+  },
+  "dimensions": [],
+  "measures": []
+ },
+ "parts": {
+  "registry": {
+   "id": "69c1ea31-f792-4f5b-9823-6efcc29a88b8",
+   "class": "sap.fpa.ui.appBuilding.entity.panel.PanelWidget",
+   "definition": {
+    "entityId": "e738089b-993b-470e-a995-279a2ad14922",
+    "data": {},
+    "layoutIds": [
+     "e6363a09-a396-476c-9780-cb826d54d9b5"
+    ]
+   },
+   "themeClasses": [],
+   "dimension": {
+    "width": 496,
+    "height": 416
+   },
+   "serviceValidationHashes": {}
+  },
+  "section": {
+   "sectionId": "22e5a6f9-14a1-41b5-b992-d97ab8a5ae36",
+   "definition": {
+    "x": 0,
+    "y": 0,
+    "width": 681,
+    "height": 398,
+    "title": "Section"
+   },
+   "widgets": [
+    {
+     "widgetId": "69c1ea31-f792-4f5b-9823-6efcc29a88b8",
+     "definition": {
+      "removeable": true,
+      "x": 0,
+      "y": 0,
+      "height": 398,
+      "width": 681,
+      "dynamicLayout": {
+       "top": 0,
+       "height": 100,
+       "bottom": 0,
+       "left": 0,
+       "width": 50,
+       "right": 0,
+       "leftUnit": "pixel",
+       "rightUnit": "auto",
+       "widthUnit": "percent",
+       "topUnit": "pixel",
+       "bottomUnit": "auto",
+       "heightUnit": "percent",
+       "minWidth": 16,
+       "minHeight": 16,
+       "minOccupiedWidth": 681,
+       "minOccupiedHeight": 416,
+       "fixedHeight": false,
+       "fixedWidth": false
+      }
+     }
+    }
+   ]
+  },
+  "entities": [
+   {
+    "type": "panel",
+    "id": "e738089b-993b-470e-a995-279a2ad14922",
+    "vendorId": "sap.epm.appBuilding.entity.panel.PanelWidgetVendor",
+    "data": {
+     "canvasScrolling": "auto"
+    }
+   }
+  ],
+  "queries": [],
+  "preExecute": [],
+  "udm": [],
+  "layouts": [
+   {
+    "id": "e6363a09-a396-476c-9780-cb826d54d9b5",
+    "definition": {
+     "type": "sap.lumira.story.layout.unified",
+     "page": {
+      "sections": [],
+      "definition": {
+       "backgroundColor": "transparent",
+       "type": "CANVAS",
+       "height": 396,
+       "width": 679
+      }
+     }
+    }
+   }
+  ]
+ }
+}

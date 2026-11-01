@@ -1,0 +1,145 @@
+{
+ "name": "panel_card",
+ "description": "Horizon-Karte: Panel mit CSS-Klasse card, Radius 12, frei verankert (top/left/right/bottom)",
+ "kind": "panel",
+ "tokens": {
+  "widgetId": "3779f58e-78e7-4f7d-9ff0-b6131e92d9af",
+  "sectionId": "6aec5fd8-b8b5-4d9d-acaa-77b8e932cf97",
+  "entityIds": [
+   "0f2e8bdb-c59e-4a7a-841f-b2a705a378bc"
+  ],
+  "outlineName": "Panel_11",
+  "model": {
+   "cubeId": "\u0000none",
+   "model": "\u0000none",
+   "space": "\u0000none",
+   "connection": "\u0000none"
+  },
+  "dimensions": [],
+  "measures": []
+ },
+ "parts": {
+  "registry": {
+   "id": "3779f58e-78e7-4f7d-9ff0-b6131e92d9af",
+   "class": "sap.fpa.ui.appBuilding.entity.panel.PanelWidget",
+   "definition": {
+    "entityId": "0f2e8bdb-c59e-4a7a-841f-b2a705a378bc",
+    "data": {},
+    "layoutIds": [
+     "29dbca89-0627-4d48-aeb8-de3507debe3b"
+    ]
+   },
+   "themeClasses": [],
+   "dimension": {
+    "width": 1544,
+    "height": 176,
+    "x": 0,
+    "y": 0,
+    "angle": 0
+   },
+   "serviceValidationHashes": {},
+   "parentDimension": {
+    "width": 1544,
+    "height": 176,
+    "x": 16,
+    "y": 16
+   },
+   "aCCDInfoForCopyPaste": [],
+   "storeEntityType": "panel"
+  },
+  "section": {
+   "sectionId": "6aec5fd8-b8b5-4d9d-acaa-77b8e932cf97",
+   "definition": {
+    "x": 16,
+    "y": 8,
+    "width": 1330,
+    "height": 382,
+    "title": "Section"
+   },
+   "widgets": [
+    {
+     "widgetId": "3779f58e-78e7-4f7d-9ff0-b6131e92d9af",
+     "definition": {
+      "removeable": true,
+      "x": 0,
+      "y": 0,
+      "height": 382,
+      "width": 1330,
+      "dynamicLayout": {
+       "top": 8,
+       "height": 416,
+       "bottom": 8,
+       "left": 16,
+       "width": 496,
+       "right": 16,
+       "leftUnit": "pixel",
+       "rightUnit": "pixel",
+       "widthUnit": "auto",
+       "topUnit": "pixel",
+       "bottomUnit": "pixel",
+       "heightUnit": "auto",
+       "minWidth": 16,
+       "minHeight": 16,
+       "minOccupiedWidth": 48,
+       "minOccupiedHeight": 32,
+       "fixedHeight": false,
+       "fixedWidth": false
+      },
+      "cssClassName": "card",
+      "notFollowTheme": true,
+      "border": {
+       "format": "all_borders",
+       "style": "solid",
+       "color": "transparent",
+       "thickness": "1",
+       "radius": 12,
+       "max_thickness": "8"
+      }
+     }
+    }
+   ]
+  },
+  "entities": [
+   {
+    "type": "panel",
+    "id": "0f2e8bdb-c59e-4a7a-841f-b2a705a378bc",
+    "vendorId": "sap.epm.appBuilding.entity.panel.PanelWidgetVendor",
+    "data": {
+     "canvasScrolling": "auto",
+     "themeOverrideSettings": {
+      "backgroundColor": "transparent",
+      "border": {
+       "format": "all_borders",
+       "style": "solid",
+       "color": "transparent",
+       "thickness": "1",
+       "radius": 12,
+       "max_thickness": "8"
+      },
+      "canvasScrolling": "auto"
+     }
+    }
+   }
+  ],
+  "queries": [],
+  "preExecute": [],
+  "udm": [],
+  "layouts": [
+   {
+    "id": "29dbca89-0627-4d48-aeb8-de3507debe3b",
+    "definition": {
+     "type": "sap.lumira.story.layout.unified",
+     "page": {
+      "sections": [],
+      "definition": {
+       "backgroundColor": "transparent",
+       "type": "CANVAS",
+       "height": 380,
+       "width": 1328
+      }
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,247 @@
+# SAC CSS – one line per class (grep me)
+# .class  | object types | properties | pseudos | descendants
+.sap-custom-account-input-control-arrow | Account Input Control | color | - | -
+.sap-custom-account-input-control-content | Account Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-account-input-control-icon | Account Input Control | color | - | -
+.sap-custom-account-input-control-main-label | Account Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-account-input-control-mark-border | Account Input Control | border-color | - | -
+.sap-custom-account-input-control-mark-radio-content | Account Input Control | background-image | - | -
+.sap-custom-account-input-control-sub-label | Account Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-account-input-control-widget | Account Input Control | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-bpc-planning-widget | BPC Planning Sequence Trigger | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-button | Button | border-color, background-color, border-radius, font-family, font-size, color, font-style, font-weight, text-decoration | :hover, :active | -
+.sap-custom-button-widget | Button | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-calculation-input-control-arrow | Calculation Input Control | color | - | -
+.sap-custom-calculation-input-control-content | Calculation Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-calculation-input-control-icon | Calculation Input Control | color | - | -
+.sap-custom-calculation-input-control-main-label | Calculation Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-calculation-input-control-mark-border | Calculation Input Control | border-color | - | -
+.sap-custom-calculation-input-control-mark-content | Calculation Input Control | color | - | -
+.sap-custom-calculation-input-control-mark-radio-content | Calculation Input Control | background-image | - | -
+.sap-custom-calculation-input-control-slider-background | Calculation Input Control | background-color | - | -
+.sap-custom-calculation-input-control-slider-label | Calculation Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-calculation-input-control-slider-progress | Calculation Input Control | background-color, border-color | - | -
+.sap-custom-calculation-input-control-sub-label | Calculation Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-calculation-input-control-widget | Calculation Input Control | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-chart-axis-line | Chart | stroke | - | -
+.sap-custom-chart-bullet-pointer | Chart | stroke, fill | - | -
+.sap-custom-chart-category-axis-label | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | :hover | -
+.sap-custom-chart-category-axis-sublabel | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | :hover | -
+.sap-custom-chart-category-axis-title | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-color-axis-label | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | :hover | -
+.sap-custom-chart-data-labels | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-donut-total-label | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-footer | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-footer-placeholder | Chart | color, font-size | - | -
+.sap-custom-chart-gauge-pointer | Chart | fill | - | -
+.sap-custom-chart-legend | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | :nth-child | -
+.sap-custom-chart-node-header-label | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-reference-band | Chart | fill, fill-opacity | :nth-child | -
+.sap-custom-chart-reference-label | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | :nth-child | -
+.sap-custom-chart-reference-line | Chart | stroke, stroke-width, stroke-dasharray, stroke-opacity | :nth-child | -
+.sap-custom-chart-stack-total-label | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | :hover | -
+.sap-custom-chart-subtitle | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-time-series-horizontal-grid-line | Chart | stroke, stroke-width, opacity | - | -
+.sap-custom-chart-time-series-navigator-outline | Chart | stroke, stroke-width | - | -
+.sap-custom-chart-time-series-navigator-series | Chart | fill, fill-opacity, stroke, stroke-width | - | -
+.sap-custom-chart-time-series-navigator-xaxis-grid-line | Chart | stroke, stroke-width | - | -
+.sap-custom-chart-time-series-vertical-grid-line | Chart | stroke, stroke-width, opacity | - | -
+.sap-custom-chart-title | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-tooltip | Chart | background-color, border | - | -
+.sap-custom-chart-tooltip-measure-title | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-tooltip-primary-label | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-tooltip-primary-value | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-tooltip-secondary-labels | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | :nth-child | -
+.sap-custom-chart-tooltip-secondary-values | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | :nth-child | -
+.sap-custom-chart-tooltip-separate-line | Chart | border-color | - | -
+.sap-custom-chart-trellis-label | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-value-axis-label | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | :hover | -
+.sap-custom-chart-value-axis-label-2 | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | :hover | -
+.sap-custom-chart-value-axis-title | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-value-axis-title-2 | Chart | font-family, font-size, fill, font-style, font-weight, text-decoration | - | -
+.sap-custom-chart-variance-negative-background-color | Chart | background-color | - | -
+.sap-custom-chart-variance-negative-color | Chart | stroke, fill, color | - | -
+.sap-custom-chart-variance-nullzero-background-color | Chart | background-color | - | -
+.sap-custom-chart-variance-nullzero-color | Chart | stroke, fill, color | - | -
+.sap-custom-chart-variance-positive-background-color | Chart | background-color | - | -
+.sap-custom-chart-variance-positive-color | Chart | stroke, fill, color | - | -
+.sap-custom-chart-waterfall-connector-line | Chart | stroke, stroke-width, stroke-dasharray | - | -
+.sap-custom-chart-widget | Chart | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-checkbox-group-item | Checkbox Group | background-color | :nth-child, :hover, :active | .sap-custom-checkbox-group-item-label, .sap-custom-checkbox-group-mark-outer, .sap-custom-checkbox-group-mark-inner
+.sap-custom-checkbox-group-item-label | Checkbox Group | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-checkbox-group-label | Checkbox Group | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-checkbox-group-mark-inner | Checkbox Group | color | - | -
+.sap-custom-checkbox-group-mark-outer | Checkbox Group | border-color, background-color | - | -
+.sap-custom-checkbox-group-widget | Checkbox Group | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-clock-widget | Clock | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-comment-widget | Comment Widget | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-comment-widget-add-comment-button | Comment Widget | color, background-color, border-color, border-radius | :hover | -
+.sap-custom-comment-widget-content | Comment Widget | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-comment-widget-separate-line | Comment Widget | border-bottom | - | -
+.sap-custom-comment-widget-title | Comment Widget | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-compass-axis | Compass Simulation | fill | - | -
+.sap-custom-compass-axis-label-font | Compass Simulation | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-compass-button | Compass Simulation | background-color, border-color, color | :hover, :active | -
+.sap-custom-compass-data-label-font | Compass Simulation | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-compass-line | Compass Simulation | color | - | -
+.sap-custom-compass-reference-data-label-font | Compass Simulation | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-compass-scenario-title-font | Compass Simulation | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-compass-simulation-details-font | Compass Simulation | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-compass-simulation-details-label-font | Compass Simulation | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-compass-slider-field | Compass Simulation | background-color, border-color | - | -
+.sap-custom-compass-slider-label-font | Compass Simulation | font-family, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-compass-subtitle-font | Compass Simulation | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-compass-title-font | Compass Simulation | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-compass-widget | Compass Simulation | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-composite-widget | Composite | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-dimension-input-control-arrow | Dimension Input Control | color | - | -
+.sap-custom-dimension-input-control-content | Dimension Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-dimension-input-control-icon | Dimension Input Control | color | - | -
+.sap-custom-dimension-input-control-main-label | Dimension Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-dimension-input-control-mark-border | Dimension Input Control | border-color | - | -
+.sap-custom-dimension-input-control-mark-radio-content | Dimension Input Control | background-image | - | -
+.sap-custom-dimension-input-control-sub-label | Dimension Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-dimension-input-control-widget | Dimension Input Control | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-dropdown-item | Dropdown | background-color, border, border-radius, font-family, font-size, color, font-style, font-weight, text-decoration | :hover, :active, :nth-child | -
+.sap-custom-dropdown-menu | Dropdown | border, border-radius | - | -
+.sap-custom-dropdown-selected-item | Dropdown | background-color, border-bottom, font-family, font-size, color, font-style, font-weight, text-decoration | :hover, :active | -
+.sap-custom-dropdown-trigger | Dropdown | border-color, background-color, border-radius, border-top, border-bottom, border-left, border-right | :hover, :active | -
+.sap-custom-dropdown-trigger-arrow | Dropdown | color, font-size, font-weight, border-radius, border, background-color, height, padding | :hover, :active | -
+.sap-custom-dropdown-trigger-arrow-expanded | Dropdown | background-color | - | -
+.sap-custom-dropdown-trigger-value | Dropdown | font-family, font-size, color, font-style, font-weight, text-decoration, background-color | - | -
+.sap-custom-dropdown-widget | Dropdown | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-filter-line | Filter Line | border-color, background-color | - | -
+.sap-custom-filter-line-disabled | Filter Line | border-color, background-color | - | -
+.sap-custom-filter-line-icon | Filter Line | color | - | -
+.sap-custom-filter-line-main-label | Filter Line | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-filter-line-menu-item | Filter Line | background-color, font-family, font-size, color, font-style, font-weight, text-decoration | :hover, :active, :nth-child | -
+.sap-custom-filter-line-menu-item-disabled | Filter Line | background-color, font-family, font-size, color, font-style, font-weight, text-decoration | :hover | -
+.sap-custom-filter-line-remove-icon | Filter Line | color | - | -
+.sap-custom-filter-line-sub-label | Filter Line | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-filter-line-widget | Filter Line | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-flow-panel-widget | Flow Layout Panel | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-geo-control-bar | Geo Map | background-color, opacity | - | -
+.sap-custom-geo-control-bar-icon | Geo Map | color | - | -
+.sap-custom-geo-main-label | Geo Map | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-geo-sub-label | Geo Map | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-geo-widget | Geo Map | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-gridlane-panel | Lane | background-color, opacity | - | -
+.sap-custom-gridlane-widget | Lane | box-shadow, border, border-top, border-right, border-bottom, border-left, border-radius, box-shadow, border-radius | - | -
+.sap-custom-image-widget | Image | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-input-control-arrow | Input Control | color | - | -
+.sap-custom-input-control-content | Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-input-control-icon | Input Control | color | - | -
+.sap-custom-input-control-main-label | Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-input-control-mark-border | Input Control | border-color | - | -
+.sap-custom-input-control-mark-content | Input Control | color | - | -
+.sap-custom-input-control-mark-radio-content | Input Control | background-image | - | -
+.sap-custom-input-control-slider-background | Input Control | background-color | - | -
+.sap-custom-input-control-slider-label | Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-input-control-slider-progress | Input Control | background-color, border-color | - | -
+.sap-custom-input-control-sub-label | Input Control | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-input-control-widget | Input Control | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-input-field | Input Field | border-color, background-color, font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-input-field-placeholder | Input Field | color, font-size | - | -
+.sap-custom-input-field-widget | Input Field | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-list-box-item | List Box | background-color, font-family, font-size, color, font-style, font-weight, text-decoration | :nth-child, :hover, :active | -
+.sap-custom-list-box-selected-item | List Box | background-color, font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-list-box-widget | List Box | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-number-chart-primary-labels | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-number-chart-primary-scales | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-number-chart-primary-values | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-number-chart-primary-variance-titles | Chart | font-family, font-size, font-style, font-weight, text-decoration | - | -
+.sap-custom-number-chart-primary-variance-values | Chart | font-family, font-size, font-style, font-weight, text-decoration | - | -
+.sap-custom-number-chart-secondary-labels | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-number-chart-secondary-scales | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-number-chart-secondary-values | Chart | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-number-chart-secondary-variance-titles | Chart | font-family, font-size, font-style, font-weight, text-decoration | - | -
+.sap-custom-number-chart-secondary-variance-values | Chart | font-family, font-size, font-style, font-weight, text-decoration | - | -
+.sap-custom-page | Page | background-color, opacity | - | -
+.sap-custom-page-book-deselected-indicator | Page Book | background-color, border-color | - | -
+.sap-custom-page-book-selected-indicator | Page Book | background-color, border-color | - | -
+.sap-custom-page-book-widget | Page Book | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-panel-widget | Panel | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-popup | Popup | background-color, opacity, box-shadow, border-radius | - | -
+.sap-custom-popup-footer-button | Popup | background-color, border-color, font-family, font-size, color, font-style, font-weight, text-decoration | :nth-child, :hover, :active | -
+.sap-custom-popup-footer-container | Popup | background-color | - | .sap-custom-popup-footer-button, .sap-custom-popup-footer-emphasized
+.sap-custom-popup-footer-emphasized | Popup | background-color, border-color, font-family, font-size, color, font-style, font-weight, text-decoration | :hover, :active | -
+.sap-custom-popup-header-container | Popup | background-color, text-align | - | .sap-custom-popup-header-font
+.sap-custom-popup-header-font | Popup | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-r-widget | R Visualization | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-radio-button-group-item | Radio Button Group | background-color | :nth-child, :hover, :active | .sap-custom-radio-button-group-item-label, .sap-custom-radio-button-group-mark-outer, .sap-custom-radio-button-group-mark-inner
+.sap-custom-radio-button-group-item-label | Radio Button Group | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-radio-button-group-label | Radio Button Group | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-radio-button-group-mark | Radio Button Group | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-radio-button-group-mark-inner | Radio Button Group | background-color | - | -
+.sap-custom-radio-button-group-mark-outer | Radio Button Group | border-color, background-color | - | -
+.sap-custom-radio-button-group-widget | Radio Button Group | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-range-slider-background-bar | Range Slider | background-color | - | -
+.sap-custom-range-slider-handle-and-tooltip-begin | Range Slider | background-color | - | -
+.sap-custom-range-slider-handle-and-tooltip-end | Range Slider | background-color | - | -
+.sap-custom-range-slider-progress-bar | Range Slider | background-color | - | -
+.sap-custom-range-slider-tick | Range Slider | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-range-slider-tooltip-font | Range Slider | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-range-slider-widget | Range Slider | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-rss-reader-widget | RSS Reader | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-shape | Shape | stroke, stroke-width, fill | - | -
+.sap-custom-shape-widget | Shape | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-slider-background-bar | Slider | background-color | - | -
+.sap-custom-slider-handle-and-tooltip | Slider | background-color | - | -
+.sap-custom-slider-progress-bar | Slider | background-color | - | -
+.sap-custom-slider-tick | Slider | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-slider-tooltip-font | Slider | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-slider-widget | Slider | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-switch-background-off | Switch | background-color | - | -
+.sap-custom-switch-background-on | Switch | background-color | - | -
+.sap-custom-switch-toggle-button | Switch | background-color | - | -
+.sap-custom-switch-widget | Switch | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-tab-strip-selected-tab | Tab Strip | border-bottom, font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-tab-strip-selected-tab-container | Tab Strip | background-color | - | -
+.sap-custom-tab-strip-tab | Tab Strip | padding-left, padding-right, font-family, font-size, color, font-style, font-weight, text-decoration | :hover, :active, :nth-child | -
+.sap-custom-tab-strip-tab-bar | Tab Strip | background-color | - | -
+.sap-custom-tab-strip-tab-container | Tab Strip | padding-left, padding-right | - | -
+.sap-custom-tab-strip-widget | Tab Strip | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-table-column-dimension-header-cell-simple-line | Table | border-top, border-bottom | - | -
+.sap-custom-table-column-dimension-member-cell-simple-line | Table | border-top, border-bottom | - | -
+.sap-custom-table-column-row-headers | Table | border, background-color, font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-table-data-cell | Table | background-color, border, line-height, font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-table-data-cell-simple-line | Table | border-bottom, border-top | - | -
+.sap-custom-table-dimension-header-cell | Table | background-color, border, line-height, font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-table-dimension-member-cell | Table | background-color, border, line-height, font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-table-dimension-member-expand-icon | Table | color | - | -
+.sap-custom-table-editable-cell | Table | background-color, border, font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-table-freeze-lines | Table | border-color | - | -
+.sap-custom-table-grid-line | Table | border-color | - | -
+.sap-custom-table-row | Table | background-color, border | :nth-child | -
+.sap-custom-table-row-dimension-header-cell-simple-line | Table | border-top, border-bottom | - | -
+.sap-custom-table-row-dimension-member-cell-simple-line | Table | border-top, border-bottom | - | -
+.sap-custom-table-selected-cell | Table | border-color | - | -
+.sap-custom-table-subtitle | Table | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-table-title | Table | border, background-color, font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-table-validation-cell-border-error | Table | border-color | - | -
+.sap-custom-table-validation-cell-border-warning | Table | border-color | - | -
+.sap-custom-table-validation-line-error | Table | background-color | - | -
+.sap-custom-table-validation-line-warning | Table | background-color | - | -
+.sap-custom-table-variance-negative-color | Table | stroke, fill | - | -
+.sap-custom-table-variance-positive-color | Table | stroke, fill | - | -
+.sap-custom-table-widget | Table | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-text | Text | font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-text-area | Text Area | border-color, background-color, font-family, font-size, color, font-style, font-weight, text-decoration | - | -
+.sap-custom-text-area-placeholder | Text Area | color, font-size | - | -
+.sap-custom-text-area-widget | Text Area | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-text-widget | Text | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-value-driver-tree-widget | Value Driver Tree | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-custom-vdt-line-highlighted | Value Driver Tree | stroke | - | -
+.sap-custom-vdt-line-normal | Value Driver Tree | stroke | - | -
+.sap-custom-vdt-minimap-button | Value Driver Tree | border-color, border-radius, background-color | - | -
+.sap-custom-vdt-minimap-button-icon | Value Driver Tree | color | - | -
+.sap-custom-vdt-node-background | Value Driver Tree | fill, stroke, rx, ry | - | -
+.sap-custom-vdt-node-dates-text | Value Driver Tree | fill | - | -
+.sap-custom-vdt-node-header-background | Value Driver Tree | fill | - | -
+.sap-custom-vdt-node-header-text | Value Driver Tree | fill | - | -
+.sap-custom-vdt-node-icon | Value Driver Tree | fill | - | -
+.sap-custom-vdt-node-icon-background | Value Driver Tree | fill | - | -
+.sap-custom-vdt-node-rows-header-text | Value Driver Tree | fill | - | -
+.sap-custom-vdt-node-rows-values-text | Value Driver Tree | fill | - | -
+.sap-custom-web-page-widget | Web Page | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -
+.sap-plan-seq-trigger-widget | Data Action Starter | background-color, border, border-top, border-right, border-bottom, border-left, opacity, box-shadow, border-radius | - | -

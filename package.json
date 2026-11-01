@@ -1,0 +1,67 @@
+{
+  "name": "sac-workbench-mcp",
+  "version": "0.3.0",
+  "description": "Unofficial MCP server for SAP Analytics Cloud: stories, charts, themes, planning models and data through the SAC web session and public REST APIs. Not affiliated with or supported by SAP; uses undocumented interfaces that may change with any SAC update.",
+  "license": "MIT",
+  "author": "Rafael Sachs",
+  "homepage": "https://github.com/RafaelSachsNL/sac-workbench-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelSachsNL/sac-workbench-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RafaelSachsNL/sac-workbench-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sap-analytics-cloud",
+    "analytics",
+    "planning",
+    "claude"
+  ],
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "sac-workbench-mcp": "./build/index.js"
+  },
+  "files": [
+    "build/",
+    "templates/",
+    "docs/",
+    "skills/",
+    "scripts/setup.mjs",
+    "scripts/login.mjs",
+    "scripts/smoke.mjs",
+    "scripts/list-tools.mjs",
+    "sac-mcp.config.example.json",
+    "README.md",
+    "TOOLS.md",
+    "ARCHITECTURE.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch",
+    "setup": "node scripts/setup.mjs",
+    "login": "node scripts/login.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "prepublishOnly": "npm run build && node scripts/list-tools.mjs",
+    "docs:tools": "node scripts/gen-tools-md.mjs > TOOLS.md"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "playwright-core": "^1.64.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.0"
+  }
+}

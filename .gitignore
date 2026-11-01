@@ -1,0 +1,16 @@
+node_modules
+build
+.env
+mcp_config.json
+.sac-browser-profile
+captures
+sac-mcp.config.json
+.DS_Store
+*.log
+
+# generated locally from SAP's API Reference Guides (not redistributed)
+skills/sac-scripting/references/ose/
+skills/sac-scripting/references/analytics-designer/
+/ose.html
+/ad.html
+__pycache__/

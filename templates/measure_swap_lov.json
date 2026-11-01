@@ -1,0 +1,334 @@
+{
+ "_note": "Recorded LOV query of a measure input control (DEMO_SALES_MODEL); DataSource, measure structure, free axis and localId are replaced per story.",
+ "query": {
+  "CType": "QueryModel",
+  "CellContextRequests": {
+   "CType": "CellContextManager",
+   "Elements": []
+  },
+  "Cells": {},
+  "ComponentTags": [
+   {
+    "KEY": "UDM_INSTANCE_ID",
+    "VALUE": "[{\"app\":\"MAIN_APPLICATION\"},{\"story\":\"storyID\"},{\"udm\":\"udm\"}]"
+   },
+   {
+    "KEY": "localId",
+    "VALUE": "view:[_SYS_BIC][t.ABC123.C2a4hptf33anlfxwzgmze6z91e][C2a4hptf33anlfxwzgmze6z91e]"
+   }
+  ],
+  "ConditionsRepo": {},
+  "DataSource": {
+   "Description": "DEMO_SALES_MODEL",
+   "ObjectName": "DEMO_SALES_MODEL",
+   "SchemaName": "DEMO_SPACE",
+   "System": "DWC_LIVE",
+   "Type": "InAModel"
+  },
+  "DimensionsRepo": {
+   "CType": "Dimensions",
+   "ComponentTags": [
+    {
+     "KEY": "UDM_INSTANCE_ID",
+     "VALUE": "[{\"app\":\"MAIN_APPLICATION\"},{\"story\":\"storyID\"},{\"udm\":\"udm\"}]"
+    },
+    {
+     "KEY": "localId",
+     "VALUE": "view:[_SYS_BIC][t.ABC123.C2a4hptf33anlfxwzgmze6z91e][C2a4hptf33anlfxwzgmze6z91e]"
+    }
+   ],
+   "Elements": [
+    {
+     "Axis": "Rows",
+     "CType": "Dimension",
+     "FieldLayoutType": "FieldBased",
+     "FieldSettings": [],
+     "MembersRepo": [
+      {
+       "CType": "BasicMeasure",
+       "KeyRef": {
+        "GroupName": "CustomDimension1",
+        "ObjectName": "Quantity_Sold",
+        "StorageName": "main"
+       }
+      },
+      {
+       "CType": "BasicMeasure",
+       "KeyRef": {
+        "GroupName": "CustomDimension1",
+        "ObjectName": "Gross_Sales",
+        "StorageName": "main"
+       }
+      },
+      {
+       "CType": "BasicMeasure",
+       "KeyRef": {
+        "GroupName": "CustomDimension1",
+        "ObjectName": "Gross_Margin",
+        "StorageName": "main"
+       }
+      },
+      {
+       "CType": "BasicMeasure",
+       "KeyRef": {
+        "GroupName": "CustomDimension1",
+        "ObjectName": "GrossSalesWithDiscount",
+        "StorageName": "main"
+       }
+      },
+      {
+       "CType": "BasicMeasure",
+       "KeyRef": {
+        "GroupName": "CustomDimension1",
+        "ObjectName": "Price_per_Unit",
+        "StorageName": "main"
+       }
+      },
+      {
+       "CType": "BasicMeasure",
+       "KeyRef": {
+        "GroupName": "CustomDimension1",
+        "ObjectName": "Cost_per_Unit",
+        "StorageName": "main"
+       }
+      },
+      {
+       "CType": "BasicMeasure",
+       "KeyRef": {
+        "GroupName": "CustomDimension1",
+        "ObjectName": "GrossMarginWithDiscount",
+        "StorageName": "main"
+       }
+      },
+      {
+       "CType": "BasicMeasure",
+       "KeyRef": {
+        "GroupName": "CustomDimension1",
+        "ObjectName": "Discount",
+        "StorageName": "main"
+       }
+      },
+      {
+       "CType": "BasicMeasure",
+       "KeyRef": {
+        "GroupName": "CustomDimension1",
+        "ObjectName": "TotalCosts",
+        "StorageName": "main"
+       }
+      }
+     ],
+     "Name": "CustomDimension1",
+     "OrderedStructureMemberNames": [
+      "Quantity_Sold",
+      "Gross_Sales",
+      "Gross_Margin",
+      "GrossSalesWithDiscount",
+      "Price_per_Unit",
+      "Cost_per_Unit",
+      "GrossMarginWithDiscount",
+      "Discount",
+      "TotalCosts"
+     ],
+     "ReadMode": "BookedAndSpaceAndState",
+     "ResultSetAttributeFields": [
+      [
+       {
+        "Name": "[Measures].[Measures]"
+       },
+       {
+        "Name": "[Measures].[Description]"
+       }
+      ]
+     ],
+     "ResultSetAttributeNodes": [
+      "CustomDimension1"
+     ],
+     "ResultSetFields": [
+      {
+       "Name": "[Measures].[Measures]"
+      },
+      {
+       "Name": "[Measures].[Description]"
+      }
+     ],
+     "SelectorReadMode": "Booked"
+    }
+   ]
+  },
+  "ExceptionsRepo": {
+   "CType": "Exceptions",
+   "ComponentTags": [
+    {
+     "KEY": "UDM_INSTANCE_ID",
+     "VALUE": "[{\"app\":\"MAIN_APPLICATION\"},{\"story\":\"storyID\"},{\"udm\":\"udm\"}]"
+    },
+    {
+     "KEY": "localId",
+     "VALUE": "view:[_SYS_BIC][t.ABC123.C2a4hptf33anlfxwzgmze6z91e][C2a4hptf33anlfxwzgmze6z91e]"
+    }
+   ]
+  },
+  "ExperimentalFeatures": "Olap.AggregationsFirstLastAverageOfDimension,Olap.AgileBI.CustomDimension2,Olap.AsyncBatchRequestHeartbeat,Olap.AsyncBlendingBatchRequest,Olap.AutoVariableSubmitCapability,Olap.AutoVariableSubmitFunctionality,Olap.BlendableQueryAliasPrefixing,Olap.BlendingTotals,Olap.CDSProjectionViews,Olap.CalculateWithNullCellsUnitType,Olap.CellDocumentId,Olap.ClientInfoBatchSupport,Olap.ClientInfoMetadata,Olap.CompoundKey,Olap.ConditionsWithVersionDimension,Olap.CorrectDimensionDescription,Olap.CubeBlendingCustomDimension1NoneAxis,Olap.CustomDimension2MemberMetadata,Olap.CustomDimensionMemberVisibilityFilter,Olap.DWC_FISCAL_TIME,Olap.DataCellContexts,Olap.DimensionDisplayGroups,Olap.DimensionKeyAttributes,Olap.DynamicMembersOnNonMeasureStructure,Olap.ErrorAboveLevel,Olap.ExceptionThresholdNoPrec,Olap.ExternalizeDynamicFilter,Olap.ExternalizeNonVariableFilter,Olap.FilterAcrossModelsLovCache,Olap.FilterCapabilityExtended,Olap.FilterCascadingIBP,Olap.FlexibleTimeDynamicTime,Olap.FunctionalVariables,Olap.HierarchyDefaults,Olap.HierarchyInfoInFilter,Olap.HierarchyPathPresentationType,Olap.IbpDisplayAttributes,Olap.IbpFilterCapabilityExtended,Olap.ImprovedDynamicVariableUpdate,Olap.InAMergeProcessing,Olap.InAModel.CustomDimension2,Olap.InAModelExternalDimension,Olap.InAModelExternalValuehelp,Olap.InAPersisted,Olap.InAShiftPeriodForTransientTimeOperations,Olap.InputEnablementFilterSettings,Olap.InputReadinessFilter,Olap.InputReadinessWithNavigationalAttributes,Olap.IteratedFormula,Olap.LazyLoadingSFXAccountMembers,Olap.LightweightMetadata,Olap.LovBasedFilterAcrossModels,Olap.MDS_InAPersisted,Olap.MaintainsVariableVariants,Olap.MaxDrillLevel,Olap.MdsDisplayAttributes,Olap.MeasureMemberUnitTranslations,Olap.MemberManagerMasterReadmode,Olap.MemberOverrideTexts,Olap.MemberUniqueNamesCompatibility,Olap.MergableMeasureFilter,Olap.MetadataCaching,Olap.MetadataHasExternalHierarchies,Olap.MetadataResultFormatOptions,Olap.MultipleAccountHierarchies,Olap.NamedCustomDimensionMember,Olap.NoFixedFiltersInRepo,Olap.NullZeroSuppression,Olap.Olap.DimensionHierarchyMetadata,Olap.Olap.ResultSetNumericValueWithInternalPrecision,Olap.Olap.SpatialTransformDistanceFilter,Olap.OptimizeHierarchyExport,Olap.OthersDetailsFromConditions,Olap.OthersFromConditions,Olap.PerformanceAnalysis,Olap.PersistPagingInRepo,Olap.PlanningBatch,Olap.RRI2,Olap.RRI3,Olap.ResultSetHierarchyLevel,Olap.ResultSetV2MetadataExtension1,Olap.ReturnMetadataExtensions,Olap.ReturnedDataSelectionSwitchOffCellExplain,Olap.SemanticObject,Olap.SfxMinimumDrillState,Olap.SimpleVariableExit,Olap.SortAndRankWithDimensionsOnColumn,Olap.SortedIteratedFormula,Olap.StoreHierarchyMemberNamesAsFlat,Olap.SupportMemberSelectStoryCalculations,Olap.SupportStructureOnFreeAxis,Olap.SupportsDimensionSemanticType,Olap.SupportsELTSIDPresentation,Olap.SupportsSIDPresentation,Olap.SupportsSankeyResultSetManager,Olap.SuppressSupplements,Olap.TextInHierarchy,Olap.TimeMeasureWithFlatAndHierarchicalFilter,Olap.UnitTranslation,Olap.UnivModelInheritedPropsRaisedPriority,Olap.UniversalDisplayHierarchyAlignment,Olap.UniversalDisplayHierarchyKey,Olap.ValueHelpHierarchyPath,Olap.VersionValidarionForPrimaryCalculations,Olap.VirtualDataSourceTypeColumns,Olap.enhanceSortAndRankBySecondaryMeasure,Rpc.AutoCsrfCall,Rpc.BwSessionIdViaGetResponse,Rpc.SharedCsrfTokens,Sac.DATA_ANALYZER_SCHEDULING_SUPPORT,Sac.FF_AUTH_USE_AUTHENTICATION_MANAGER,Sac.FF_CHART_PLOT_AREA_CONTEXT_MENU,Sac.FF_COMPOSABLE_CHARTS_FUNNEL,Sac.FF_COMPOSABLE_CHARTS_HEAT_MAP,Sac.FF_COMPOSABLE_CHARTS_WATERFALL,Sac.FF_DATA_ANALYZER_CDS_PROJECTION_VIEW_SUPPORT,Sac.FF_DATA_ANALYZER_COMMERCIAL_MINUS_SIGN,Sac.FF_DATA_ANALYZER_DATE_RANGE_VALUE_HELP,Sac.FF_DATA_ANALYZER_DSP_TUNNEL_SCHEDULING,Sac.FF_DATA_ANALYZER_FISCAL_INTEROP_FILTERS,Sac.FF_DATA_ANALYZER_FISCAL_PRESENTATION_DROPDOWN,Sac.FF_DATA_ANALYZER_FISCAL_TIME_SUPPORT,Sac.FF_DATA_ANALYZER_HORIZON_THEME,Sac.FF_DATA_ANALYZER_MEASURE_DISPLAY_OPTIONS,Sac.FF_DATA_ANALYZER_NUMBER_FORMATTING_EXTENDED,Sac.FF_DATA_ANALYZER_OPEN_IN_OCEAN,Sac.FF_DATA_ANALYZER_TABLE_HYPERLINKS,Sac.FF_DATA_ANALYZER_TABLE_MIXED_UNITS,Sac.FF_SAC_FIREFLY_AUTHENTICATION_UNV,Sac.FF_VD_FORCE_VALUE_ID_MODIFICATION",
+  "FilterRepo": {
+   "CType": "Filter",
+   "DynamicFilter": {
+    "CType": "FilterExpression",
+    "CellValueOperand": [],
+    "FilterRoot": {
+     "CType": "FilterCartesianProduct",
+     "Elements": [],
+     "Id": "7e4b2379-fea2-be29-c22b-5c8805d16b23"
+    },
+    "Id": "0bf37486-3ec9-f99d-edee-5cbb12eb9cc2",
+    "IsSuppressingNulls": false
+   },
+   "VisibilityFilter": {
+    "CType": "FilterExpression",
+    "CellValueOperand": [],
+    "FilterRoot": {
+     "CType": "FilterCartesianProduct",
+     "Elements": [],
+     "Id": "9198e7b6-4bf7-774d-7135-8aa8ff0f4ef9"
+    },
+    "Id": "4e2cd2e8-817c-6e9b-425e-166e667a4a72",
+    "IsSuppressingNulls": false
+   }
+  },
+  "FormulaExceptionManager": {
+   "ActiveStatusModelExceptions": [],
+   "CType": "FormulaExceptions",
+   "FormulaExceptions": [],
+   "FormulaResultVisible": false
+  },
+  "HierarchyNavigationsRepo": {},
+  "IsVersionDimensionValidationEnabled": true,
+  "LovAbstractionRepo": {
+   "AutoVhDrillLevelConfig": false,
+   "AutoVhReadModeConfig": false,
+   "Enabled": false,
+   "IgnoreMultipleDrillsInVh": true,
+   "Measures": false,
+   "RestoreSettingsAfterImplicitSubmit": true,
+   "Sort": false
+  },
+  "Query": {
+   "AxesLayout": [
+    {
+     "Axis": "Free",
+     "OrderedDimensionNames": [
+      "Calender_Year_Month_CALMONTH",
+      "Currency",
+      "Month",
+      "Quantity_Sold\u221eU",
+      "Version_ID",
+      "_DJ_Location_ID",
+      "_DJ_Product_Category",
+      "_DJ_Product_ID",
+      "_DJ_SalesManager_ID",
+      "_DJ_State_ID",
+      "_DJ_Store_ID",
+      "CustomDimension2",
+      "$$Currency$$",
+      "$$Unit$$",
+      "DJ_Location_GEO_POINT_DJ_Lo",
+      "DJ_Location_ID",
+      "DJ_Location_DJ_Location1_DJ_Lo",
+      "DJ_Location_DJ_Location__DJ_Lo",
+      "DJ_Product_Category_ID",
+      "DJ_Product_ID",
+      "DJ_SalesManager_ID",
+      "DJ_State_ID",
+      "DJ_Store_ID"
+     ]
+    },
+    {
+     "Axis": "Rows",
+     "OrderedDimensionNames": [
+      "CustomDimension1"
+     ]
+    },
+    {
+     "Axis": "Technical",
+     "OrderedDimensionNames": [
+      "$$Cells$$"
+     ]
+    }
+   ],
+   "AxesRepo": {
+    "CType": "AxesSettings",
+    "ComponentTags": [
+     {
+      "KEY": "UDM_INSTANCE_ID",
+      "VALUE": "[{\"app\":\"MAIN_APPLICATION\"},{\"story\":\"storyID\"},{\"udm\":\"udm\"}]"
+     },
+     {
+      "KEY": "localId",
+      "VALUE": "view:[_SYS_BIC][t.ABC123.C2a4hptf33anlfxwzgmze6z91e][C2a4hptf33anlfxwzgmze6z91e]"
+     }
+    ],
+    "Elements": [
+     {
+      "Axis": "Columns",
+      "CType": "Axis",
+      "Layout": [],
+      "ResultStructureRepo": {
+       "CType": "Totals",
+       "ResultAlignment": "Default",
+       "Visibility": "Default"
+      },
+      "Type": 2,
+      "ZeroSuppressionType": 0
+     },
+     {
+      "Axis": "Rows",
+      "CType": "Axis",
+      "Layout": [
+       "CustomDimension1"
+      ],
+      "ResultStructureRepo": {
+       "CType": "Totals",
+       "ResultAlignment": "Default",
+       "Visibility": "Default"
+      },
+      "Type": 1,
+      "ZeroSuppressionType": 0
+     }
+    ]
+   }
+  },
+  "QueryDataCellsRepo": {
+   "CType": "DataCells",
+   "ComponentTags": [
+    {
+     "KEY": "UDM_INSTANCE_ID",
+     "VALUE": "[{\"app\":\"MAIN_APPLICATION\"},{\"story\":\"storyID\"},{\"udm\":\"udm\"}]"
+    },
+    {
+     "KEY": "localId",
+     "VALUE": "view:[_SYS_BIC][t.ABC123.C2a4hptf33anlfxwzgmze6z91e][C2a4hptf33anlfxwzgmze6z91e]"
+    }
+   ]
+  },
+  "ResultSetPersistanceIdentifier": null,
+  "ResultSetPersistanceSchema": null,
+  "ResultSetPersistanceTable": null,
+  "ResultStructureRepo": {
+   "CType": "Totals",
+   "ResultAlignment": "Default",
+   "Visibility": "Default"
+  },
+  "SankeyResultSetManagerRepo": {
+   "Enabled": false
+  },
+  "SortRepo": {
+   "CType": "Sorting",
+   "Elements": []
+  },
+  "SubSetDescription": {
+   "ColumnFrom": 0,
+   "ColumnTo": -1,
+   "RowFrom": 0,
+   "RowTo": -1
+  }
+ }
+}

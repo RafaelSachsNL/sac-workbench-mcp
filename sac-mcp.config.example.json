@@ -1,0 +1,14 @@
+{
+  "tenantUrl": "https://<your-tenant>.eu10.hcs.cloud.sap",
+  "user": "",
+  "readOnly": false,
+  "expertTools": false,
+  "defaults": {
+    "connection": "",
+    "space": "",
+    "folderId": ""
+  },
+  "browser": {
+    "headless": false
+  }
+}

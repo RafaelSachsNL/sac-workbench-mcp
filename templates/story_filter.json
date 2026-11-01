@@ -1,0 +1,59 @@
+{
+ "description": "Story filter (IC_MEMBER) on one dimension, recorded in a test story. Placeholders: cubeId, dimension name/key/caption, members, icElementStringId.",
+ "tokens": {
+  "cubeId": "C72ewfihv1vjjkf9ief54hw359w",
+  "dimName": "_DJ_Product_Category",
+  "dimKey": "DJ_Product_Category_ID",
+  "dimCaption": "DJ_Product_Category",
+  "id": "18674510-8294-4085-b946-367377896395"
+ },
+ "filter": {
+  "display": {
+   "iconHidden": false,
+   "showApplySelectionsButton": true
+  },
+  "icProps": {
+   "isViewerAllowedToDeleteIC": false,
+   "isViewerAllowedToChangeICHierarchy": false
+  },
+  "extendedSelection": {
+   "targetEntity": {
+    "datasetEntityId": "[{\"datasetId\":\"view:[_SYS_BIC][t.ABC123.C72ewfihv1vjjkf9ief54hw359w][C72ewfihv1vjjkf9ief54hw359w]\"}]",
+    "dimensionEntityId": "[{\"datasetId\":\"view:[_SYS_BIC][t.ABC123.C72ewfihv1vjjkf9ief54hw359w][C72ewfihv1vjjkf9ief54hw359w]\"},{\"dimensionId\":\"_DJ_Product_Category\"}]",
+    "attributeEntityId": "[{\"datasetId\":\"view:[_SYS_BIC][t.ABC123.C72ewfihv1vjjkf9ief54hw359w][C72ewfihv1vjjkf9ief54hw359w]\"},{\"dimensionId\":\"_DJ_Product_Category\"},{\"attributeId\":\"DJ_Product_Category_ID\"}]"
+   },
+   "isAllowReset": true
+  },
+  "title": {
+   "fallbackTitle": "DJ_Product_Category"
+  },
+  "lovInfo": {
+   "isUseDefaultReadMode": false,
+   "isDisableMemberSelectorCascade": false,
+   "selectionMode": "dynamic",
+   "staticMembers": [
+    {
+     "key": "PC2",
+     "caption": "Juices",
+     "displayId": "PC2"
+    },
+    {
+     "key": "PC4",
+     "caption": "Alcohol",
+     "displayId": "PC4"
+    }
+   ]
+  },
+  "schemaType": "IC_MEMBER",
+  "icElementStringId": "18674510-8294-4085-b946-367377896395",
+  "selection": {
+   "isAllSelected": true,
+   "isDeselection": false,
+   "selectedValues": []
+  },
+  "userSelection": {
+   "isAllSelected": true,
+   "selections": []
+  }
+ }
+}

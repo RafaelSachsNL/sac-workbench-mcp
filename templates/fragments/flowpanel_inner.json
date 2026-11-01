@@ -1,0 +1,138 @@
+{
+ "name": "flowpanel_inner",
+ "description": "Flow Panel innerhalb einer Karte bzw. auf dem Canvas",
+ "kind": "flowpanel",
+ "tokens": {
+  "widgetId": "ef635b59-5054-414c-9519-4e612fcaecae",
+  "sectionId": "c18c050b-6705-47c8-8049-af7b537e875b",
+  "entityIds": [
+   "f3085382-c6cd-4b7a-a97f-23c256b3b553"
+  ],
+  "outlineName": "FlowLayoutPanel_5",
+  "model": {
+   "cubeId": "\u0000none",
+   "model": "\u0000none",
+   "space": "\u0000none",
+   "connection": "\u0000none"
+  },
+  "dimensions": [],
+  "measures": []
+ },
+ "parts": {
+  "registry": {
+   "id": "ef635b59-5054-414c-9519-4e612fcaecae",
+   "class": "sap.fpa.ui.appBuilding.entity.flowpanel.FlowPanelWidget",
+   "definition": {
+    "entityId": "f3085382-c6cd-4b7a-a97f-23c256b3b553",
+    "data": {},
+    "layoutIds": [
+     "61027091-1294-4fb5-8f5c-de801247a3dd"
+    ]
+   },
+   "themeClasses": [],
+   "dimension": {
+    "width": 496,
+    "height": 416
+   },
+   "serviceValidationHashes": {}
+  },
+  "section": {
+   "sectionId": "c18c050b-6705-47c8-8049-af7b537e875b",
+   "definition": {
+    "x": 16,
+    "y": 56,
+    "width": 1296,
+    "height": 316,
+    "title": "Section"
+   },
+   "widgets": [
+    {
+     "widgetId": "ef635b59-5054-414c-9519-4e612fcaecae",
+     "definition": {
+      "removeable": true,
+      "x": 0,
+      "y": 0,
+      "height": 316,
+      "width": 1296,
+      "dynamicLayout": {
+       "top": 56,
+       "height": 416,
+       "bottom": 8,
+       "left": 16,
+       "width": 496,
+       "right": 16,
+       "leftUnit": "pixel",
+       "rightUnit": "pixel",
+       "widthUnit": "auto",
+       "topUnit": "pixel",
+       "bottomUnit": "pixel",
+       "heightUnit": "auto",
+       "minWidth": 32,
+       "minHeight": 32,
+       "minOccupiedWidth": 64,
+       "minOccupiedHeight": 96,
+       "fixedHeight": false,
+       "fixedWidth": false
+      },
+      "cssClassName": ""
+     }
+    }
+   ]
+  },
+  "entities": [
+   {
+    "type": "flowpanel",
+    "id": "f3085382-c6cd-4b7a-a97f-23c256b3b553",
+    "vendorId": "sap.epm.appBuilding.entity.flowpanel.FlowPanelWidgetVendor",
+    "data": {
+     "breakPointRules": [],
+     "panelPadding": {
+      "topPadding": {
+       "value": 0,
+       "unit": "pixel"
+      },
+      "bottomPadding": {
+       "value": 0,
+       "unit": "pixel"
+      },
+      "leftPadding": {
+       "value": 0,
+       "unit": "pixel"
+      },
+      "rightPadding": {
+       "value": 0,
+       "unit": "pixel"
+      }
+     },
+     "panelSpacing": {
+      "horizontalSpacing": 0,
+      "verticalSpacing": 0
+     },
+     "alignment": "LEFT",
+     "applyRuleInDesignTime": true
+    }
+   }
+  ],
+  "queries": [],
+  "preExecute": [],
+  "udm": [],
+  "layouts": [
+   {
+    "id": "61027091-1294-4fb5-8f5c-de801247a3dd",
+    "definition": {
+     "type": "sap.lumira.story.layout.unified",
+     "page": {
+      "sections": [],
+      "definition": {
+       "backgroundColor": "transparent",
+       "type": "CANVAS",
+       "layoutType": "FLOW",
+       "width": 1294,
+       "height": 314
+      }
+     }
+    }
+   }
+  ]
+ }
+}

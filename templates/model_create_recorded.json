@@ -1,0 +1,828 @@
+{
+ "createWithResource:Region": {
+  "action": "createWithResource",
+  "data": {
+   "resourceId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Region",
+   "options": {
+    "batchMode": true
+   },
+   "metadata": {
+    "contentLibOptions": {
+     "name": true,
+     "description": true,
+     "access": true,
+     "accessDetails": true,
+     "userAuthOnly": true,
+     "ancestorPath": {
+      "name": true,
+      "description": true,
+      "ownerType": true,
+      "parentResId": true,
+      "spaceId": true,
+      "access": true,
+      "userAuthOnly": true
+     },
+     "resourceType": true,
+     "ownerType": true,
+     "shareResId": true,
+     "packageId": true,
+     "createdBy": true,
+     "modifiedBy": true,
+     "updateCounter": true,
+     "createdTime": true,
+     "modifiedTime": true,
+     "includeStagedResources": false,
+     "resourceSubtype": false,
+     "spaceId": true,
+     "epmObjectData": {}
+    }
+   },
+   "masterdataDimension": {
+    "isEmbedded": false,
+    "dimensionId": "Region",
+    "id": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Region",
+    "name": "Region",
+    "type": "Generic",
+    "description": "Vertriebsregion",
+    "isLocal": true,
+    "capability": {
+     "simpleColumnNames": true,
+     "replicatedMemberPropertiesReadOnly": false,
+     "addNonReplicatedMembers": true,
+     "dacHideParents": false,
+     "multiLangBackendEnabled": true,
+     "multiLangEnabled": false
+    },
+    "dacEnabled": false,
+    "properties": [
+     {
+      "property": "ID",
+      "propertyType": "ID",
+      "description": "Member ID",
+      "dataTypeName": "NVARCHAR",
+      "length": 256,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": true,
+      "isUnique": true
+     }
+    ],
+    "hierarchies": [],
+    "version": 1,
+    "isSingleColumnDim": false,
+    "parentResId": "Cwun7lextsf8bfpswtjkitghmeo",
+    "resourceId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Region",
+    "skipMandatoryPropertyValidation": true,
+    "isTemporary": false
+   }
+  }
+ },
+ "createWithResource:Date": {
+  "action": "createWithResource",
+  "data": {
+   "resourceId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Date",
+   "options": {
+    "batchMode": true
+   },
+   "metadata": {
+    "contentLibOptions": {
+     "name": true,
+     "description": true,
+     "access": true,
+     "accessDetails": true,
+     "userAuthOnly": true,
+     "ancestorPath": {
+      "name": true,
+      "description": true,
+      "ownerType": true,
+      "parentResId": true,
+      "spaceId": true,
+      "access": true,
+      "userAuthOnly": true
+     },
+     "resourceType": true,
+     "ownerType": true,
+     "shareResId": true,
+     "packageId": true,
+     "createdBy": true,
+     "modifiedBy": true,
+     "updateCounter": true,
+     "createdTime": true,
+     "modifiedTime": true,
+     "includeStagedResources": false,
+     "resourceSubtype": false,
+     "spaceId": true,
+     "epmObjectData": {}
+    }
+   },
+   "masterdataDimension": {
+    "isEmbedded": false,
+    "dimensionId": "Date",
+    "id": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Date",
+    "name": "Date",
+    "type": "TimeHANA",
+    "description": "",
+    "isLocal": true,
+    "capability": {
+     "simpleColumnNames": true,
+     "replicatedMemberPropertiesReadOnly": false,
+     "addNonReplicatedMembers": true,
+     "dacHideParents": false,
+     "multiLangBackendEnabled": true,
+     "multiLangEnabled": false,
+     "useMetadataBasedGeneration": true
+    },
+    "dacEnabled": false,
+    "properties": [
+     {
+      "property": "DATE",
+      "propertyType": "",
+      "description": "Date",
+      "dataTypeName": "DATE",
+      "length": 0,
+      "scale": 0,
+      "semanticType": "DATE_DAY",
+      "isMandatory": false,
+      "isUnique": true,
+      "descriptionProperty": "DAY"
+     },
+     {
+      "property": "YEAR",
+      "propertyType": "",
+      "description": "Year",
+      "dataTypeName": "VARCHAR",
+      "length": 4,
+      "scale": 0,
+      "semanticType": "DATE_YEAR",
+      "isMandatory": false,
+      "isUnique": false,
+      "descriptionProperty": "YEARDESC"
+     },
+     {
+      "property": "CALQUARTER",
+      "propertyType": "",
+      "description": "Calendar Quarter",
+      "dataTypeName": "VARCHAR",
+      "length": 5,
+      "scale": 0,
+      "semanticType": "DATE_QUARTER",
+      "isMandatory": false,
+      "isUnique": false,
+      "descriptionProperty": "QUARTERDESC"
+     },
+     {
+      "property": "CALMONTH",
+      "propertyType": "ID",
+      "description": "Calendar Month",
+      "dataTypeName": "VARCHAR",
+      "length": 6,
+      "scale": 0,
+      "semanticType": "DATE_MONTH",
+      "isMandatory": false,
+      "isUnique": true,
+      "descriptionProperty": "MONTHDESC"
+     },
+     {
+      "property": "CALWEEK",
+      "propertyType": "",
+      "description": "Calendar Week",
+      "dataTypeName": "VARCHAR",
+      "length": 6,
+      "scale": 0,
+      "semanticType": "DATE_WEEK",
+      "isMandatory": false,
+      "isUnique": false,
+      "descriptionProperty": "WEEK"
+     },
+     {
+      "property": "DATE2",
+      "propertyType": "",
+      "description": "Month Day, Year",
+      "dataTypeName": "DATE",
+      "length": 0,
+      "scale": 0,
+      "semanticType": "DATE_DAY",
+      "isMandatory": false,
+      "isUnique": false,
+      "descriptionProperty": "MONTHDAYDESC"
+     },
+     {
+      "property": "YEARDESC",
+      "propertyType": "",
+      "description": "Year",
+      "dataTypeName": "VARCHAR",
+      "length": 4,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": false,
+      "isUnique": false
+     },
+     {
+      "property": "HALFYEARDESC",
+      "propertyType": "",
+      "description": "Half-Year",
+      "dataTypeName": "VARCHAR",
+      "length": 2,
+      "scale": 0,
+      "semanticType": "DATE_HALF_YEAR",
+      "isMandatory": false,
+      "isUnique": false
+     },
+     {
+      "property": "QUARTERDESC",
+      "propertyType": "",
+      "description": "Quarter",
+      "dataTypeName": "VARCHAR",
+      "length": 2,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": false,
+      "isUnique": false
+     },
+     {
+      "property": "MONTHDESC",
+      "propertyType": "",
+      "description": "Month",
+      "dataTypeName": "VARCHAR",
+      "length": 3,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": false,
+      "isUnique": false
+     },
+     {
+      "property": "WEEK",
+      "propertyType": "",
+      "description": "Week",
+      "dataTypeName": "VARCHAR",
+      "length": 5,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": false,
+      "isUnique": false
+     },
+     {
+      "property": "DAY",
+      "propertyType": "",
+      "description": "Day",
+      "dataTypeName": "VARCHAR",
+      "length": 2,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": false,
+      "isUnique": false
+     },
+     {
+      "property": "MONTHDAYDESC",
+      "propertyType": "",
+      "description": "Month, Day",
+      "dataTypeName": "VARCHAR",
+      "length": 7,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": false,
+      "isUnique": false
+     },
+     {
+      "property": "DAYNAME",
+      "propertyType": "",
+      "description": "Day Name",
+      "dataTypeName": "VARCHAR",
+      "length": 9,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": false,
+      "isUnique": false
+     }
+    ],
+    "hierarchies": [
+     {
+      "hierarchy": "YQM",
+      "hierarchyId": "YQM",
+      "hierarchyType": "leveled",
+      "description": "Year, Quarter, Month",
+      "isNew": true,
+      "levels": [
+       {
+        "level": 1,
+        "property": "YEAR",
+        "levelType": "MDLEVEL_TYPE_TIME_YEARS"
+       },
+       {
+        "level": 2,
+        "property": "CALQUARTER",
+        "levelType": "MDLEVEL_TYPE_TIME_QUARTERS"
+       },
+       {
+        "level": 3,
+        "property": "CALMONTH",
+        "levelType": "MDLEVEL_TYPE_TIME_MONTHS"
+       }
+      ]
+     },
+     {
+      "hierarchy": "YHQM",
+      "hierarchyId": "YHQM",
+      "hierarchyType": "leveled",
+      "description": "Year, Half-Year, Quarter, Month",
+      "isNew": true,
+      "levels": [
+       {
+        "level": 1,
+        "property": "YEAR",
+        "levelType": "MDLEVEL_TYPE_TIME_YEARS"
+       },
+       {
+        "level": 2,
+        "property": "HALFYEARDESC",
+        "levelType": "MDLEVEL_TYPE_TIME_HALF_YEAR"
+       },
+       {
+        "level": 3,
+        "property": "CALQUARTER",
+        "levelType": "MDLEVEL_TYPE_TIME_QUARTERS"
+       },
+       {
+        "level": 4,
+        "property": "CALMONTH",
+        "levelType": "MDLEVEL_TYPE_TIME_MONTHS"
+       }
+      ]
+     },
+     {
+      "hierarchy": "YHM",
+      "hierarchyId": "YHM",
+      "hierarchyType": "leveled",
+      "description": "Year, Half-Year, Month",
+      "isNew": true,
+      "levels": [
+       {
+        "level": 1,
+        "property": "YEAR",
+        "levelType": "MDLEVEL_TYPE_TIME_YEARS"
+       },
+       {
+        "level": 2,
+        "property": "HALFYEARDESC",
+        "levelType": "MDLEVEL_TYPE_TIME_HALF_YEAR"
+       },
+       {
+        "level": 3,
+        "property": "CALMONTH",
+        "levelType": "MDLEVEL_TYPE_TIME_MONTHS"
+       }
+      ]
+     },
+     {
+      "hierarchy": "YM",
+      "hierarchyId": "YM",
+      "hierarchyType": "leveled",
+      "description": "Year, Month",
+      "isNew": true,
+      "levels": [
+       {
+        "level": 1,
+        "property": "YEAR",
+        "levelType": "MDLEVEL_TYPE_TIME_YEARS"
+       },
+       {
+        "level": 2,
+        "property": "CALMONTH",
+        "levelType": "MDLEVEL_TYPE_TIME_MONTHS"
+       }
+      ]
+     }
+    ],
+    "version": 1,
+    "defaultHierarchy": "YQM",
+    "isSingleColumnDim": false,
+    "repositoryId": "",
+    "parentResId": "Cwun7lextsf8bfpswtjkitghmeo",
+    "resourceId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Date",
+    "skipMandatoryPropertyValidation": true,
+    "isTemporary": false,
+    "fiscalConfig": {
+     "enabled": false
+    },
+    "fromYear": "2026",
+    "toYear": "2027",
+    "granularity": "Month",
+    "isFiscalYear": false,
+    "isUserManaged": false,
+    "timeConfig": {
+     "enablePattern": false,
+     "pattern": "4-4-5",
+     "firstWeekDay": "Sunday",
+     "periodPrefix": "",
+     "usePrefix": false,
+     "firstYearWeekIndicator": "Wednesday"
+    }
+   }
+  }
+ },
+ "createWithResource:Version": {
+  "action": "createWithResource",
+  "data": {
+   "resourceId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Version",
+   "options": {
+    "batchMode": true
+   },
+   "metadata": {
+    "contentLibOptions": {
+     "name": true,
+     "description": true,
+     "access": true,
+     "accessDetails": true,
+     "userAuthOnly": true,
+     "ancestorPath": {
+      "name": true,
+      "description": true,
+      "ownerType": true,
+      "parentResId": true,
+      "spaceId": true,
+      "access": true,
+      "userAuthOnly": true
+     },
+     "resourceType": true,
+     "ownerType": true,
+     "shareResId": true,
+     "packageId": true,
+     "createdBy": true,
+     "modifiedBy": true,
+     "updateCounter": true,
+     "createdTime": true,
+     "modifiedTime": true,
+     "includeStagedResources": false,
+     "resourceSubtype": false,
+     "spaceId": true,
+     "epmObjectData": {}
+    }
+   },
+   "masterdataDimension": {
+    "isEmbedded": false,
+    "dimensionId": "Version",
+    "id": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Version",
+    "name": "Version",
+    "type": "VersionDim",
+    "description": "",
+    "isLocal": true,
+    "capability": {
+     "simpleColumnNames": true,
+     "replicatedMemberPropertiesReadOnly": false,
+     "addNonReplicatedMembers": true,
+     "dacHideParents": false,
+     "multiLangBackendEnabled": true,
+     "multiLangEnabled": false
+    },
+    "dacEnabled": false,
+    "properties": [
+     {
+      "property": "ID",
+      "propertyType": "ID",
+      "description": "Member ID",
+      "dataTypeName": "NVARCHAR",
+      "length": 300,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": true,
+      "isUnique": true
+     },
+     {
+      "property": "VERSION",
+      "propertyType": "VERSION",
+      "description": "Version Name",
+      "dataTypeName": "NVARCHAR",
+      "length": 127,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": true,
+      "isUnique": false
+     },
+     {
+      "property": "CATEGORY",
+      "propertyType": "CATEGORY",
+      "description": "Category",
+      "dataTypeName": "NVARCHAR",
+      "length": 127,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": true,
+      "isUnique": false
+     },
+     {
+      "property": "CURRENCY_CONVERSION_CATEGORY",
+      "propertyType": "CURRENCY_CONVERSION_CATEGORY",
+      "description": "Category for Currency Conversion",
+      "dataTypeName": "NVARCHAR",
+      "length": 127,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": false,
+      "isUnique": false
+     },
+     {
+      "property": "RATE_VERSION",
+      "propertyType": "RATE_VERSION",
+      "description": "Rate Version",
+      "dataTypeName": "NVARCHAR",
+      "length": 127,
+      "scale": 0,
+      "semanticType": "TEXT",
+      "isMandatory": false,
+      "isUnique": false
+     }
+    ],
+    "hierarchies": [],
+    "version": 1,
+    "isSingleColumnDim": false,
+    "repositoryId": "",
+    "parentResId": "Cwun7lextsf8bfpswtjkitghmeo",
+    "resourceId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Version",
+    "skipMandatoryPropertyValidation": true,
+    "isTemporary": false,
+    "bInitDefaultVersion": false
+   }
+  }
+ },
+ "update:Region": {
+  "action": "update",
+  "data": {
+   "cubeId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Cwun7lextsf8bfpswtjkitghmeo",
+   "dimensionId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Region",
+   "includeOverwrites": false,
+   "refreshDACInBackground": true,
+   "refreshVRInBackground": true,
+   "members": [
+    {
+     "ID": "#",
+     "_DESCRIPTION": "Unassigned"
+    }
+   ],
+   "needPrevId": true,
+   "layout": "combined",
+   "includeFormula": true,
+   "modelingFrontendRequest": true
+  }
+ },
+ "createDesignTime:model": {
+  "action": "createDesignTime",
+  "data": {
+   "resourceId": "Cwun7lextsf8bfpswtjkitghmeo",
+   "parentResId": "0123456789ABCDEF0123456789ABCDEF",
+   "options": {
+    "batchMode": true
+   },
+   "metadata": {
+    "contentLibOptions": {
+     "name": true,
+     "description": true,
+     "access": true,
+     "accessDetails": true,
+     "userAuthOnly": true,
+     "ancestorPath": {
+      "name": true,
+      "description": true,
+      "ownerType": true,
+      "parentResId": true,
+      "spaceId": true,
+      "access": true,
+      "userAuthOnly": true
+     },
+     "resourceType": true,
+     "ownerType": true,
+     "shareResId": true,
+     "packageId": true,
+     "createdBy": true,
+     "modifiedBy": true,
+     "updateCounter": true,
+     "createdTime": true,
+     "modifiedTime": true,
+     "includeStagedResources": false,
+     "resourceSubtype": false,
+     "spaceId": true,
+     "epmObjectData": {}
+    },
+    "dependentObjectTypes": [
+     "DIMENSION",
+     "DATASET"
+    ]
+   },
+   "cube": {
+    "id": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Cwun7lextsf8bfpswtjkitghmeo",
+    "packageName": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo",
+    "name": "MCP_PLAN_TEST",
+    "shortDescription": "MCP_PLAN_TEST",
+    "columns": [
+     {
+      "name": "Version.ID",
+      "dataTypeName": "NVARCHAR",
+      "length": 300,
+      "isNew": true,
+      "excludeNullValues": false
+     },
+     {
+      "name": "Date.CALMONTH",
+      "dataTypeName": "VARCHAR",
+      "length": 6,
+      "isNew": true,
+      "excludeNullValues": false
+     },
+     {
+      "name": "Umsatz",
+      "dataTypeName": "DECIMAL",
+      "length": 38,
+      "scale": 7,
+      "isNew": true,
+      "excludeNullValues": false
+     },
+     {
+      "name": "Region.ID",
+      "dataTypeName": "NVARCHAR",
+      "length": 256,
+      "isNew": true,
+      "excludeNullValues": false
+     }
+    ],
+    "dimensions": [
+     {
+      "name": "Version",
+      "properties": [
+       {
+        "name": "ID",
+        "description": "Member ID",
+        "propertyType": "ID",
+        "descriptionProperty": null,
+        "columnReference": "Version.ID",
+        "masterDataReference": {
+         "referenceId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Version"
+        }
+       }
+      ],
+      "description": "Version",
+      "hierarchies": []
+     },
+     {
+      "name": "Date",
+      "properties": [
+       {
+        "name": "CALMONTH",
+        "description": "Member ID",
+        "propertyType": "ID",
+        "descriptionProperty": null,
+        "columnReference": "Date.CALMONTH",
+        "masterDataReference": {
+         "referenceId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Date"
+        }
+       }
+      ],
+      "description": "Date",
+      "hierarchies": []
+     },
+     {
+      "name": "Region",
+      "properties": [
+       {
+        "name": "ID",
+        "description": "Member ID",
+        "propertyType": "ID",
+        "descriptionProperty": null,
+        "columnReference": "Region.ID",
+        "masterDataReference": {
+         "referenceId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Region"
+        }
+       }
+      ],
+      "description": "Vertriebsregion",
+      "hierarchies": []
+     }
+    ],
+    "measures": [
+     {
+      "name": "Umsatz",
+      "description": "Umsatz in EUR",
+      "aggregationType": "",
+      "minimumDrillstate": [],
+      "numericShift": null,
+      "numericScale": null,
+      "unitType": "",
+      "calculated": false,
+      "visible": true,
+      "numericPrecision": 38,
+      "exceptionAggregationType": "",
+      "aggregationDimensionName": [],
+      "solveOrder": 1,
+      "columnReference": "Umsatz",
+      "unitDimension": null,
+      "unitDimensionProperty": null,
+      "rateType": "",
+      "measureUnits": ""
+     }
+    ],
+    "variables": [],
+    "currencyConversionTimeDimension": "",
+    "dataExportRestricted": false,
+    "dataImportRestricted": false,
+    "accessRestrictedSummary": false,
+    "description": "",
+    "dimensionValidationRules": false,
+    "enableDataAudit": false,
+    "hints": [
+     {
+      "Key": "mds_plan_use_ce_new",
+      "Value": "true"
+     },
+     {
+      "Key": "mds_correct_time_description_handling",
+      "Value": "true"
+     }
+    ],
+    "isRemote": false,
+    "isSample": false,
+    "isTemporary": false,
+    "leadingStructure": "CustomDimension1",
+    "planning": {
+     "checks": {
+      "contextBasedPlanningArea": false,
+      "maxInitialPrivateVersionSize": null,
+      "defaultPlanningAreaFilters": [],
+      "globalLocks": [
+       {
+        "type": "Data Locking",
+        "value": true
+       },
+       {
+        "type": "Relationship",
+        "value": true
+       },
+       {
+        "type": "Dimension DAC",
+        "value": true
+       }
+      ]
+     }
+    },
+    "planningTimeDimension": "Date",
+    "rate": "",
+    "secured": false,
+    "type": "Planning",
+    "translation": {
+     "enabled": false,
+     "originalLanguage": "en"
+    },
+    "mode": "standalone",
+    "status": "valid",
+    "hierarchies": [],
+    "sources": [
+     {
+      "origin": "generated",
+      "reference": {
+       "type": "LocalVersions"
+      }
+     }
+    ],
+    "extendedDimensions": [],
+    "dataLockingEnabled": false,
+    "capability": {
+     "addDimensions": true,
+     "originBPC": false,
+     "simpleColumnNames": true,
+     "automaticWriteBack": false,
+     "exposeCubeDimProperties": true,
+     "detailsDeprecation": true,
+     "queryBasedCurrencyConversion": true,
+     "ctEnabled": false,
+     "unitTranslationEnabled": true,
+     "preConvertedCurrency": false,
+     "expensiveModel": false,
+     "hasUserDefinedMeasures": true,
+     "nlqIndexingEnabled": false,
+     "hasCustomSolveOrder": false
+    }
+   }
+  }
+ },
+ "update:Version": {
+  "action": "update",
+  "data": {
+   "cubeId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Cwun7lextsf8bfpswtjkitghmeo",
+   "dimensionId": "t.ABC123.Cwun7lextsf8bfpswtjkitghmeo:Version",
+   "includeOverwrites": false,
+   "refreshDACInBackground": true,
+   "refreshVRInBackground": true,
+   "members": [
+    {
+     "ID": "public.Actual",
+     "_DESCRIPTION": "Actual",
+     "VERSION": "Actual",
+     "CATEGORY": "Actuals",
+     "CURRENCY_CONVERSION_CATEGORY": "Actuals",
+     "RATE_VERSION": ""
+    }
+   ],
+   "needPrevId": true,
+   "layout": "combined",
+   "includeFormula": true,
+   "modelingFrontendRequest": true
+  }
+ }
+}

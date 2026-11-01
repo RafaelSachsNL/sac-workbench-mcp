@@ -1,0 +1,120 @@
+{
+ "action": "createObjectOfType",
+ "data": {
+  "p1": "PLANNINGSEQUENCE",
+  "p2": {
+   "id": null,
+   "name": "MCP_DA_COPY_PLAN",
+   "description": "Copy Actual to Plan (test)",
+   "defaultCubeId": "C11ltg36d2cdn97e2nbostih8w7",
+   "planningSteps": [
+    {
+     "id": "27337389-6838-4302-3904-192712702331",
+     "name": "PLAN_AUS_IST",
+     "description": "",
+     "stepType": "SCRIPT",
+     "panelType": "TEXTUAL",
+     "scriptContent": "MEMBERSET [d/Measures] = (\"Umsatz\", \"Menge\")\nDATA() = RESULTLOOKUP([d/Version] = \"public.Actual\") * 1.1\n",
+     "visualFormulasData": "",
+     "memberFilter": {},
+     "isVisualPanel": false,
+     "clientCapability": {
+      "monospacedFont": true
+     },
+     "visualContent": {
+      "sourceContext": {},
+      "variables": [],
+      "visualFormulasDimensions": [],
+      "aggregations": [],
+      "models": [],
+      "configOptions": {
+       "fiscal": false,
+       "unbooked": false,
+       "signflip": false,
+       "readcalculatedmembers": true
+      },
+      "zoomState": {
+       "translateX": 0,
+       "translateY": 0,
+       "scale": 1
+      },
+      "miniMapVisible": true,
+      "menuItems": {
+       "memberIdOn": false,
+       "memberDescriptionOn": true,
+       "technicalView": true,
+       "commentView": true,
+       "contextVisible": true,
+       "variableVisible": true
+      }
+     },
+     "scriptControlsStatus": {
+      "validationOn": false,
+      "highLightOn": true,
+      "autoCompleteOn": true,
+      "helpOn": true,
+      "calculationScopeOn": true
+     },
+     "scriptReferences": {
+      "usedParameters": [],
+      "referenceCubes": []
+     },
+     "isConvertedOnce": false,
+     "isTextScriptChanged": true,
+     "isScriptChanged": true
+    }
+   ],
+   "parameters": [
+    {
+     "id": "91867164-2110-4621-3081-477519787419",
+     "displayKey": "TargetVersion",
+     "displayName": "",
+     "description": "",
+     "inputType": "PROMPT",
+     "cubeId": null,
+     "cubeType": "DEFAULT",
+     "dimensionId": "Version",
+     "hierarchyName": null,
+     "hierarchyLevel": "LEAF",
+     "dataType": null,
+     "decimalPlaces": null,
+     "allowAllMember": false,
+     "type": "MEMBER",
+     "cardinality": "SINGLE",
+     "value": {
+      "memberId": null,
+      "hierarchyName": null
+     },
+     "isTargetVersionParameter": true
+    }
+   ],
+   "version": null,
+   "debugData": {
+    "debugSessionId": null,
+    "debugContextId": null,
+    "dataActionName": "MCP_DA_COPY_PLAN",
+    "defaultCubeId": "C11ltg36d2cdn97e2nbostih8w7",
+    "debugPoints": []
+   }
+  },
+  "p3": {
+   "resourceOptions": {
+    "target": {
+     "name": "MCP_DA_COPY_PLAN",
+     "description": "Copy Actual to Plan (test)",
+     "parentResourceId": "0123456789ABCDEF0123456789ABCDEF",
+     "copiedSourceObjectId": null
+    },
+    "metadata": {
+     "favResId": true,
+     "ancestorPath": {
+      "name": true,
+      "description": true,
+      "access": true
+     },
+     "access": true
+    }
+   }
+  }
+ }
+}

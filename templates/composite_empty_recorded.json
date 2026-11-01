@@ -1,0 +1,599 @@
+{
+ "_note": "Empty composite as saved by the composite editor (updateContentAndMoveResource cdata), recorded 2026-10-16",
+ "cdata": {
+  "storyId": null,
+  "title": "MCP_COMP_REC",
+  "description": "",
+  "isOptimizedEnabled": true,
+  "tiles": [],
+  "isSample": false,
+  "isTemporary": false,
+  "resourceId": "950F22207541BB03D3F89530B1AADED8",
+  "state": {
+   "Story": {
+    "visible": true,
+    "devicePreviewMode": false
+   },
+   "DataViewContentTabs": {
+    "visible": false
+   },
+   "DataViewMenuTab": {
+    "visible": true
+   },
+   "PageTypeSelector": {
+    "visible": false
+   },
+   "MessageLayout": {
+    "noVisiblePages": false,
+    "pageNotAvailable": false,
+    "editMode": true,
+    "devicePreviewMode": false
+   }
+  },
+  "access": {
+   "": {
+    "native": 0,
+    "inherited": 0
+   }
+  },
+  "accessExt": {
+   "": {
+    "native": null,
+    "inherited": null
+   }
+  },
+  "ownerType": "TEMP",
+  "ownerId": "TEMP_SACUSER",
+  "parentResId": "TEMP_SACUSER",
+  "shared": false,
+  "shareResId": "",
+  "mobileSupport": 0,
+  "resourceSubtype": "COMPOSITE",
+  "resourceType": "STORY",
+  "sourceResource": {
+   "resourceId": "",
+   "parentResId": "",
+   "updateCounter": 0,
+   "origLangu": "E",
+   "packageId": "t.ABC123",
+   "name": "",
+   "resourceSubtype": "",
+   "mobileSupport": 0,
+   "description": "",
+   "createdBy": "",
+   "createdTime": "2026-10-16T16:02:49.683Z",
+   "modifiedBy": "",
+   "modifiedTime": "2026-10-16T16:02:49.683Z",
+   "createdByDisplayName": "",
+   "modifiedByDisplayName": "",
+   "access": {},
+   "accessExt": {},
+   "texts": [],
+   "views": [],
+   "sourceResource": {},
+   "favResId": "",
+   "shareResId": "",
+   "ancestorResource": [],
+   "ancestorPath": [],
+   "auth": null,
+   "canShare": false,
+   "cdata": null,
+   "storyContent": null,
+   "metadata": null,
+   "dependentObjects": [],
+   "subObjects": [],
+   "data": null,
+   "featured": 0,
+   "spaceId": null
+  },
+  "createdBy": "SACUSER",
+  "createdByDisplayName": "",
+  "favResId": "",
+  "spaceId": null,
+  "content": {
+   "version": "4.24",
+   "entities": [
+    {
+     "id": "6e8b7961-9994-4bfd-bce6-e1ace133f6f5",
+     "name": "New Infographic",
+     "type": "story",
+     "data": {
+      "id": "6f4a624a-57dd-4707-a67b-38a93ce19b16",
+      "title": "New Infographic",
+      "pages": [
+       {
+        "title": "Page",
+        "hidden": false,
+        "content": {
+         "version": "2.0",
+         "layouts": [
+          {
+           "id": "boxlayout",
+           "definition": {
+            "type": "sap.lumira.story.layout.unified",
+            "page": {
+             "sections": [],
+             "definition": {
+              "backgroundColor": "#FFFFFF",
+              "type": "CANVAS",
+              "height": 606,
+              "width": 1017
+             }
+            }
+           }
+          }
+         ],
+         "widgets": [],
+         "filters": [],
+         "uqmPageFilters": [],
+         "uqmScopedPageGroups": [],
+         "uqmCascadeGroupings": [],
+         "uqmLAPageFilterFFQueries": {}
+        },
+        "id": "a31b3cd2-f023-4b22-ac46-3e90b81c8e7a",
+        "suggestedVizSettings": {},
+        "definition": {
+         "type": "CANVAS",
+         "snapToGrid": false,
+         "snapToObject": true,
+         "layoutId": "3aa17cc5-e306-4045-b751-7b997d927294",
+         "fitPageToDevice": true,
+         "enableDevicePreview": true,
+         "devicePreviewSize": {
+          "width": "auto",
+          "height": "auto"
+         }
+        }
+       }
+      ],
+      "storyFilters": [],
+      "hyperlinkFilters": [],
+      "queryDefinitions": [],
+      "themingReference": null,
+      "colorSync": {
+       "version": "1.0.0"
+      },
+      "promptTokenDetails": [],
+      "uqmIntegrationEnabled": true,
+      "storyWideSettings": {
+       "useHorizonDefaultStyle": true,
+       "analyticgrid.table": {
+        "general": {
+         "isUqmNative": true,
+         "migrationVersion": "1.0"
+        }
+       },
+       "custom.color.palettes": [],
+       "story.color.palettes": [],
+       "theme.color.palettes": [
+        {
+         "swatchIds": [
+          "DatapointColor_1",
+          "DatapointColor_2",
+          "DatapointColor_3",
+          "DatapointColor_4",
+          "DatapointColor_5",
+          "DatapointColor_6",
+          "DatapointColor_7",
+          "DatapointColor_8",
+          "DatapointColor_9",
+          "DatapointColor_10",
+          "DatapointColor_11",
+          "DatapointColor_12"
+         ],
+         "colors": [
+          "#168EFF",
+          "#E29519",
+          "#75980B",
+          "#DF1278",
+          "#8B47D7",
+          "#049F9A",
+          "#0070F2",
+          "#CC00DC",
+          "#798C77",
+          "#DA6C6C",
+          "#5D36FF",
+          "#A68A5B"
+         ],
+         "type": "standard",
+         "mappingPaletteId": "sapColorfulPalette",
+         "mappingPaletteDesc": "SAP Colorful Palette",
+         "id": "325df054-22e7-4ac9-b218-7185f6aef3cb"
+        },
+        {
+         "swatchIds": [
+          "DatapointColor_25",
+          "DatapointColor_28",
+          "DatapointColor_23",
+          "DatapointColor_29",
+          "DatapointColor_22",
+          "DatapointColor_27",
+          "DatapointColor_24",
+          "DatapointColor_21",
+          "DatapointColor_26"
+         ],
+         "colors": [
+          "#003B72",
+          "#62B3FF",
+          "#0065C3",
+          "#8BC7FF",
+          "#0074E2",
+          "#3FA2FF",
+          "#0055A5",
+          "#168EFF",
+          "#00305D"
+         ],
+         "type": "standard",
+         "mappingPaletteId": "sapBlueCategoriesPalette",
+         "mappingPaletteDesc": "SAP Blue Categories Palette",
+         "id": "a2b3c4d5-e6f7-8901-2345-6789abcdef12"
+        },
+        {
+         "swatchIds": [
+          "DatapointColor_34",
+          "DatapointColor_40",
+          "DatapointColor_36",
+          "DatapointColor_41",
+          "DatapointColor_37",
+          "DatapointColor_39",
+          "DatapointColor_35",
+          "DatapointColor_38",
+          "DatapointColor_33"
+         ],
+         "colors": [
+          "#233549",
+          "#C5CFD9",
+          "#485E75",
+          "#EDF0F3",
+          "#5B728B",
+          "#9DAEBE",
+          "#364A5F",
+          "#758CA4",
+          "#1A2633"
+         ],
+         "type": "standard",
+         "mappingPaletteId": "sapIbcsCategoriesPalette",
+         "mappingPaletteDesc": "SAP IBCS Categories Palette",
+         "id": "f3a8c2d4-8b9e-4c6f-9a3b-2b5e6d7f8a9c"
+        },
+        {
+         "swatchIds": [
+          "DatapointColor_1",
+          "DatapointColor_24",
+          "DatapointColor_38",
+          "DatapointColor_34"
+         ],
+         "colors": [
+          "#168EFF",
+          "#0055A5",
+          "#758CA4",
+          "#233549"
+         ],
+         "type": "waterfall_standard",
+         "mappingPaletteId": "sapBlueWaterfallPaletteWithSubtotals",
+         "mappingPaletteDesc": "SAP Blue Waterfall Palette with Subtotals",
+         "id": "0a4796a0-8409-4b34-9255-f0e98503ae5d"
+        },
+        {
+         "swatchIds": [
+          "DatapointColor_37",
+          "DatapointColor_34",
+          "DatapointColor_37",
+          "DatapointColor_37"
+         ],
+         "colors": [
+          "#5B728B",
+          "#233549",
+          "#5B728B",
+          "#5B728B"
+         ],
+         "type": "waterfall_standard",
+         "mappingPaletteId": "sapIbcsWaterfallPaletteWithSubtotals",
+         "mappingPaletteDesc": "SAP IBCS Waterfall Palette with Subtotals",
+         "id": "c865c41e-41cf-4cab-9c59-3c185b4b36c8"
+        },
+        {
+         "swatchIds": [
+          "DatapointColor_37",
+          "DatapointColor_34",
+          "DatapointColor_37"
+         ],
+         "colors": [
+          "#5B728B",
+          "#233549",
+          "#5B728B"
+         ],
+         "type": "waterfall_standard",
+         "mappingPaletteId": "sapIbcsWaterfallPalette",
+         "mappingPaletteDesc": "SAP IBCS Waterfall Palette",
+         "id": "a55f860e-b1d1-48b7-9f43-18496e39f596"
+        },
+        {
+         "swatchIds": [
+          "DatapointColor_15",
+          "DatapointColor_17",
+          "DatapointColor_38",
+          "DatapointColor_34"
+         ],
+         "colors": [
+          "#287A40",
+          "#D00A0A",
+          "#758CA4",
+          "#233549"
+         ],
+         "type": "waterfall_standard",
+         "mappingPaletteId": "sapIbcsSemanticWaterfallPaletteWithSubtotals",
+         "mappingPaletteDesc": "SAP IBCS Semantic Waterfall Palette with Subtotals",
+         "id": "4066ceea-ac50-4b4e-ad2d-55f4b21bddb3"
+        },
+        {
+         "swatchIds": [
+          "DatapointColor_15",
+          "DatapointColor_17",
+          "DatapointColor_34"
+         ],
+         "colors": [
+          "#287A40",
+          "#D00A0A",
+          "#233549"
+         ],
+         "type": "waterfall_standard",
+         "mappingPaletteId": "sapIbcsSemanticWaterfallPalette",
+         "mappingPaletteDesc": "SAP IBCS Semantic Waterfall Palette",
+         "id": "23b494ab-1de5-423b-a632-684b6b344c96"
+        },
+        {
+         "swatchIds": [
+          "DatapointColor_15",
+          "DatapointColor_17",
+          "DatapointColor_34"
+         ],
+         "colors": [
+          "#287A40",
+          "#D00A0A",
+          "#233549"
+         ],
+         "type": "waterfall_standard",
+         "mappingPaletteId": "sapSemanticPalette",
+         "mappingPaletteDesc": "SAP Semantic Palette",
+         "id": "1464986d-452c-4394-8532-3da9b49a7279"
+        },
+        {
+         "id": "16713667-5520-4230-8302-722491981682",
+         "type": "gradient",
+         "gradient": {
+          "0": "#168EFF",
+          "100": "#CC00DC"
+         },
+         "swatchIds": {
+          "0": "DatapointColor_1",
+          "100": "DatapointColor_8"
+         },
+         "mappingPaletteId": "sapColorfulGradientPalette",
+         "mappingPaletteDesc": "SAP Colorful Gradient Palette"
+        },
+        {
+         "id": "35711793-1730-4006-b304-294073050532",
+         "type": "gradient",
+         "gradient": {
+          "0": "#168EFF",
+          "100": "#00305D"
+         },
+         "swatchIds": {
+          "0": "DatapointColor_21",
+          "100": "DatapointColor_26"
+         },
+         "mappingPaletteId": "sapBlueGradientPalette",
+         "mappingPaletteDesc": "SAP Blue Gradient Palette"
+        },
+        {
+         "id": "20295507-6426-4836-9037-585710413101",
+         "type": "gradient",
+         "gradient": {
+          "0": "#758CA4",
+          "100": "#1A2633"
+         },
+         "swatchIds": {
+          "0": "DatapointColor_38",
+          "100": "DatapointColor_33"
+         },
+         "mappingPaletteId": "sapIbcsGradientPalette",
+         "mappingPaletteDesc": "SAP IBCS Gradient Palette"
+        },
+        {
+         "id": "34018701-1436-4370-8174-810363232271",
+         "type": "diverging",
+         "startColor": "#168EFF",
+         "midColor": "#EAAA44",
+         "endColor": "#768441",
+         "startColorSwatchId": "DatapointColor_30",
+         "midColorSwatchId": "DatapointColor_31",
+         "endColorSwatchId": "DatapointColor_32",
+         "mappingPaletteId": "sapDivergingPalette",
+         "mappingPaletteDesc": "SAP Diverging Palette"
+        },
+        {
+         "id": "31914008-1327-4496-b297-775205823989",
+         "type": "diverging",
+         "startColor": "#758CA4",
+         "midColor": "#EAAA44",
+         "endColor": "#768441",
+         "startColorSwatchId": "DatapointColor_38",
+         "midColorSwatchId": "DatapointColor_31",
+         "endColorSwatchId": "DatapointColor_32",
+         "mappingPaletteId": "sapIbcsDivergingPalette",
+         "mappingPaletteDesc": "SAP IBCS Diverging Palette"
+        },
+        {
+         "id": "14534510-8691-4170-9049-352226143824",
+         "type": "sequential",
+         "startColor": "#168EFF",
+         "endColor": "#00305D",
+         "startColorSwatchId": "DatapointColor_21",
+         "endColorSwatchId": "DatapointColor_26",
+         "mappingPaletteId": "sapSequentialPalette",
+         "mappingPaletteDesc": "SAP Sequential Palette"
+        },
+        {
+         "id": "27922670-2551-4583-8110-265495290178",
+         "type": "sequential",
+         "startColor": "#758CA4",
+         "endColor": "#1A2633",
+         "startColorSwatchId": "DatapointColor_38",
+         "endColorSwatchId": "DatapointColor_33",
+         "mappingPaletteId": "sapIbcsSequentialPalette",
+         "mappingPaletteDesc": "SAP IBCS Sequential Palette"
+        },
+        {
+         "colors": [
+          "#f24269",
+          "#77d36f"
+         ],
+         "type": "variance",
+         "id": "ebc23c59-91c1-465c-a653-3d46ab1ef1d3",
+         "mappingPaletteId": "variancePaletteHorizon"
+        },
+        {
+         "color": "#EE3939",
+         "type": "single_color",
+         "id": "523a2efd-00b7-4ba5-a2ca-650929668970"
+        },
+        {
+         "color": "#000000",
+         "type": "single_color",
+         "id": "70dd9910-b2db-4315-b6c5-51c2baccdadb"
+        },
+        {
+         "color": "#2395FF",
+         "type": "single_color",
+         "id": "6721631f-32ba-4534-9561-eb29da2449de"
+        },
+        {
+         "color": "#F0AB00",
+         "type": "single_color",
+         "id": "6511631a-32ba-4534-9561-eb29da2449dd"
+        },
+        {
+         "color": "#bbbdbf",
+         "type": "single_color",
+         "id": "6511631a-32ba-4534-9561-grayda2449da"
+        },
+        {
+         "color": "#fff3d4",
+         "type": "single_color",
+         "id": "6511631g-32ba-4534-9561-yellow2449df"
+        }
+       ],
+       "story.namedcolors.ismigrationcomplete": false,
+       "colors.recent": [],
+       "story.namedcolors.migrationpalettes": [],
+       "story.namedcolors.defaultpalettesbeforemigration": {},
+       "custom.markers": [],
+       "markers.recent": [],
+       "markers.recent.custom": []
+      },
+      "uqmStoryFilters": [],
+      "uqmHyperlinkFilters": [],
+      "uqmFieldSelectionFilters": [],
+      "uqmStoryLAFilters": [],
+      "thresholds": {
+       "model": {},
+       "story": {}
+      },
+      "gradientSync": {
+       "version": "1.0.0"
+      },
+      "measureSync": [],
+      "patternSync": {},
+      "waterfallColorSync": {
+       "version": "1.0.0"
+      },
+      "uqmDeletedDynamicFilters": {},
+      "uqmDatasetAliasMap": {},
+      "scaledMeasures": [],
+      "variableSaveOptions": "CURRENT",
+      "filterBarSettings": {
+       "runtimeVisibility": "auto",
+       "layoutType": "vertical",
+       "runtimeToolbarEnabled": true
+      },
+      "filterExperienceSettings": {
+       "sortType": "default",
+       "addFilterCapability": true
+      },
+      "supportsBatchQuery": false,
+      "uqmRemoteSystemNames": [],
+      "uqmHyperlinkFilterGroups": {},
+      "uqmStoryLAFilterContributors": [],
+      "filterBarInfo": {},
+      "persistedUqmQuery": [],
+      "persistedMergeGroupQuery": "",
+      "persistedUdm": [],
+      "uqmVariablesDataModelInfo": {},
+      "persistedUqmQueryAndDMInfo": {
+       "version": "2026.15.15"
+      },
+      "preExecuteUqmQueryIds": []
+     },
+     "dynamicTextInfo": {
+      "timestamp": "2026-10-16T16:03:48.093Z",
+      "updatedBy": "SACUSER",
+      "source": "EditMode"
+     },
+     "dynamicText": {}
+    },
+    {
+     "app": {
+      "events": {},
+      "globalVars": {},
+      "names": {
+       "[{\"appPage\":\"a31b3cd2-f023-4b22-ac46-3e90b81c8e7a\"}]": "Page_1"
+      },
+      "partialLibraryLoading": true,
+      "usedApi": {},
+      "dataModelProperties": {
+       "dataModelRepointingHidden": false
+      }
+     },
+     "appPages": [
+      {
+       "instanceId": "[{\"appPage\":\"a31b3cd2-f023-4b22-ac46-3e90b81c8e7a\"}]",
+       "payload": {
+        "pageId": "a31b3cd2-f023-4b22-ac46-3e90b81c8e7a",
+        "behaviorMode": "CANVAS",
+        "invalidPersistedInAWidgets": {},
+        "referencedWidgetInstanceIds": [],
+        "allReferencedWidgetIdsForInit": {},
+        "allReferencedWidgetIds": []
+       }
+      }
+     ],
+     "id": "6e8b7961-9994-4bfd-bce6-e1ace133f6f5:application"
+    }
+   ],
+   "optimizedDesignEnabled": true,
+   "folder": "PRIVATE",
+   "title": "New Composite",
+   "contentSize": 9938,
+   "optimizedEnabled": true,
+   "optimizedBlockingUnsupportedFeatures": false
+  }
+ },
+ "updateOpt": {
+  "dataChangeInsightsSupport": {
+   "value": 0
+  },
+  "enhancedProperties": {
+   "STORY_OPTIMIZED_INFO": "VIEW_EDIT_STORY2",
+   "DEFAULT_VIEW_MODE": "view",
+   "CONTENT_SIZE": "9938"
+  },
+  "ignoreVersion": false,
+  "localVer": 1,
+  "ignoreSizeLimit": true,
+  "propertyBag": true,
+  "videoDataStorySupport": {
+   "value": 0
+  }
+ }
+}

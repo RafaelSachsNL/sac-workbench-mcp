@@ -1,0 +1,134 @@
+{
+ "name": "panel_group_header",
+ "description": "Titelzeile einer Karte (48 px, logicGroupHeader)",
+ "kind": "panel",
+ "tokens": {
+  "widgetId": "0aaad078-9657-428e-a591-0c579d1c2f65",
+  "sectionId": "c90c7e67-67e8-48ab-9733-250d9870e727",
+  "entityIds": [
+   "614853d5-ef1c-4e78-821d-fe8d0912e5ea"
+  ],
+  "outlineName": "Panel_12",
+  "model": {
+   "cubeId": "\u0000none",
+   "model": "\u0000none",
+   "space": "\u0000none",
+   "connection": "\u0000none"
+  },
+  "dimensions": [],
+  "measures": []
+ },
+ "parts": {
+  "registry": {
+   "id": "0aaad078-9657-428e-a591-0c579d1c2f65",
+   "class": "sap.fpa.ui.appBuilding.entity.panel.PanelWidget",
+   "definition": {
+    "entityId": "614853d5-ef1c-4e78-821d-fe8d0912e5ea",
+    "data": {},
+    "layoutIds": [
+     "1ec214d3-f4d6-4e70-b5a7-b761a7956cb9"
+    ]
+   },
+   "themeClasses": [],
+   "dimension": {
+    "width": 496,
+    "height": 416
+   },
+   "serviceValidationHashes": {}
+  },
+  "section": {
+   "sectionId": "c90c7e67-67e8-48ab-9733-250d9870e727",
+   "definition": {
+    "x": 0,
+    "y": 0,
+    "width": 1328,
+    "height": 48,
+    "title": "Section"
+   },
+   "widgets": [
+    {
+     "widgetId": "0aaad078-9657-428e-a591-0c579d1c2f65",
+     "definition": {
+      "removeable": true,
+      "x": 0,
+      "y": 0,
+      "height": 48,
+      "width": 1328,
+      "dynamicLayout": {
+       "top": 0,
+       "height": 48,
+       "bottom": 0,
+       "left": 0,
+       "width": 496,
+       "right": 0,
+       "leftUnit": "pixel",
+       "rightUnit": "pixel",
+       "widthUnit": "auto",
+       "topUnit": "pixel",
+       "bottomUnit": "auto",
+       "heightUnit": "pixel",
+       "minWidth": 16,
+       "minHeight": 16,
+       "minOccupiedWidth": 16,
+       "minOccupiedHeight": 48,
+       "fixedHeight": false,
+       "fixedWidth": false
+      },
+      "cssClassName": "logicGroupHeader",
+      "notFollowTheme": true,
+      "border": {
+       "format": "all_borders",
+       "style": "solid",
+       "color": "transparent",
+       "thickness": "1",
+       "radius": 0,
+       "max_thickness": "8"
+      }
+     }
+    }
+   ]
+  },
+  "entities": [
+   {
+    "type": "panel",
+    "id": "614853d5-ef1c-4e78-821d-fe8d0912e5ea",
+    "vendorId": "sap.epm.appBuilding.entity.panel.PanelWidgetVendor",
+    "data": {
+     "canvasScrolling": "auto",
+     "themeOverrideSettings": {
+      "backgroundColor": "transparent",
+      "border": {
+       "format": "all_borders",
+       "style": "solid",
+       "color": "transparent",
+       "thickness": "1",
+       "radius": 0,
+       "max_thickness": "8"
+      },
+      "canvasScrolling": "auto"
+     }
+    }
+   }
+  ],
+  "queries": [],
+  "preExecute": [],
+  "udm": [],
+  "layouts": [
+   {
+    "id": "1ec214d3-f4d6-4e70-b5a7-b761a7956cb9",
+    "definition": {
+     "type": "sap.lumira.story.layout.unified",
+     "page": {
+      "sections": [],
+      "definition": {
+       "backgroundColor": "transparent",
+       "type": "CANVAS",
+       "height": 46,
+       "width": 1326
+      }
+     }
+    }
+   }
+  ]
+ }
+}

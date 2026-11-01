@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sac": {
+      "command": "node",
+      "args": ["build/index.js"]
+    }
+  }
+}
