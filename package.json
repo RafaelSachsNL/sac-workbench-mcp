@@ -23,7 +23,7 @@
   "type": "module",
   "main": "build/index.js",
   "bin": {
-    "sac-workbench-mcp": "./build/index.js"
+    "sac-workbench-mcp": "build/index.js"
   },
   "files": [
     "build/",
