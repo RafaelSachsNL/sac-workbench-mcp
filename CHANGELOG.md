@@ -5,6 +5,9 @@ All notable changes to this project. Format: [Keep a Changelog](https://keepacha
 
 ## [Unreleased]
 
+- Published on npm (`npm install -g sac-workbench-mcp`); README describes the npm setup.
+- `package.json`: `bin` path without `./`, which npm 11 dropped on publish.
+
 ## [0.3.0] — 2026-11-05 — first public release
 
 ### Added

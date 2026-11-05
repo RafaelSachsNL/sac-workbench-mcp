@@ -112,6 +112,18 @@ own. The scripting reference is built locally from SAP's public documentation; s
 
 ## Setup
 
+### From npm
+
+```bash
+npm install -g sac-workbench-mcp
+sac-workbench-mcp setup     # asks for the tenant URL and defaults, opens Chrome for the SSO login
+```
+
+The configuration goes to `~/.sac-mcp/config.json`, so updates (`npm install -g sac-workbench-mcp@latest`) keep it.
+Sign in again later with `sac-workbench-mcp login`. With Claude Code: `claude mcp add sac -- sac-workbench-mcp`.
+
+### From source
+
 ```bash
 git clone https://github.com/RafaelSachsNL/sac-workbench-mcp.git
 cd sac-workbench-mcp
